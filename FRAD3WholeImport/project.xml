@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>FRAD3WholeImport</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023_ScTMA.xml</aixmBaseline>
+    <description>Importing whole AIXM</description>
+    <targetDate>Mon Mar 18 2024</targetDate>
+</adtProjectConfig>

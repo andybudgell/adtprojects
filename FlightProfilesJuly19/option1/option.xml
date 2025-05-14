@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>FlightProfilesJuly19</projectName>
+    <aixmBaseline>AirTOp_vB159_1902Airac_MP.xml</aixmBaseline>
+    <description>FlightProfiles</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>30/08/2024 10:46:57</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId></activeFlightSampleId>
+    <creator></creator>
+    <closed>true802728</closed>
+    <closedData>
+        <user/>
+        <description>test</description>
+        <date>Fri Aug 30 2024</date>
+    </closedData>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

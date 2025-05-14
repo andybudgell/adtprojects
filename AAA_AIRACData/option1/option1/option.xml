@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>AAA_AIRACData</projectName>
+    <aixmBaseline>xUK_AIRAC_02_2024.xml</aixmBaseline>
+    <description>AIRAC 0224 BL Switch</description>
+    <optionName>Option 1.1</optionName>
+    <lastSavedDateTime>31/01/2024 10:12:36</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>-1</activeFlightSampleId>
+    <creator>802728</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

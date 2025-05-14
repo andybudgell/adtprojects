@@ -1,0 +1,17 @@
+,,,,,,,,,,,,,,
+1,Baseline FPRSA.dafp,FPRSA,7,C:/Users/805846/OneDrive - NATS/Placement 1/DA vs Analytics vs pyBADA/LOGAN SAM/Full year\LOGAN MANGO MID SAM 2023.dafp,29681.4,22.9089,457.704,1455.5,224638,0,0,0,0,0
+2,Baseline CFMU.dafp,CFMU,6,C:/Users/805846/OneDrive - NATS/Placement 1/DA vs Analytics vs pyBADA/LOGAN SAM/Full year\LOGAN MANGO MID SAM 2023.dafp,21670.4,12.5674,344.564,1095.71,164577,0,0,0,0,0
+3,Option FPRSA.dafp,FPRSA,7,C:/Users/805846/OneDrive - NATS/Placement 1/DA vs Analytics vs pyBADA/LOGAN SAM/Full year\LOGAN MANGO MID SAM 2023.dafp,29679.2,22.9094,457.66,1455.36,224628,0,0,0,0,0
+4,Option CFMU.dafp,CFMU,6,C:/Users/805846/OneDrive - NATS/Placement 1/DA vs Analytics vs pyBADA/LOGAN SAM/Full year\LOGAN MANGO MID SAM 2023.dafp,21649.6,12.3282,344.204,1094.57,164403,0,0,0,0,0
+5,Baseline DCT.dafp,DCT,6,C:/Users/805846/OneDrive - NATS/Placement 1/DA vs Analytics vs pyBADA/LOGAN SAM\LOGAN SAM.dafp,746.168,2.51324,9.09146,28.9108,5579,0,0,0,0,0
+7,Option DCT.dafp,DCT,6,C:/Users/805846/Desktop\base.dafp,725.838,-2.65274e-013,8.84375,28.1231,5424,0,0,0,0,0
+8,LOGAN SAM Traffic 1.dafp,Baseline,2889,C:/Users/805846/Downloads\LOGAN SAM Traffic 1.dafp,359280,2.51324,2198.19,6990.25,2.86079e+006,0,0,0,0,0
+9,LOGAN SAM Traffic 1 (1).dafp,Option,2889,C:/Users/805846/Downloads\LOGAN SAM Traffic 1 (1).dafp,349491,-2.12452e-013,2138.3,6799.79,2.78242e+006,0,0,0,0,0
+10,Version 2.dafp,DCT BL,6,C:/Users/805846/Downloads\LOGAN SAM Traffic 1.dafp,746.168,2.51324,7.8788,25.0546,5765,0,0,0,0,0
+11,Version 2.dafp,Option DCT,6,C:/Users/805846/Desktop\Version 2 Baseline.dafp,725.838,-2.16084e-013,7.66413,24.3719,5607,0,0,0,0,0
+12,Version 2 Baseline.dafp,Baseline CFMU,6,C:/Users/805846/Desktop\Version 2 Baseline.dafp,19878.2,6.30658,258.448,821.865,153500,0,0,0,0,0
+13,Version 2 Option CFMU.dafp,Option CFMU,6,C:/Users/805846/Desktop\Version 2 Baseline.dafp,746.168,2.51324,7.8788,25.0546,5765,0,0,0,0,0
+14,Version 2 Baseline FPRSA.dafp,BL CFMU,6,C:/Users/805846/Desktop\Version 2 Baseline.dafp,19909.2,6.63957,283.652,902.012,153526,0,0,0,0,0
+15,Version 2 Option FPRSA.dafp,OP CFMU,6,C:/Users/805846/Desktop\Version 2 Baseline.dafp,19888.9,6.45883,283.44,901.339,153369,0,0,0,0,0
+16,Version 2 BL FPRSA.dafp,BL Simple CFMU,6,C:/Users/805846/Desktop\Version 2 Baseline.dafp,19909.2,4.92825,259.514,825.255,153701,0,0,0,0,0
+17,Version 2 OP FPRSA.dafp,OP Simple CFMU,6,C:/Users/805846/Desktop\FPRSA.dafp,19888.9,4.74664,259.307,824.596,153544,0,0,0,0,0

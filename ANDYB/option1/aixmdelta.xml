@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id200030">
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id200001">
+			<gml:identifier codeSpace="urn:uuid:">65a83b63-f164-48bd-8b25-675b880b32a0</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id200002">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200003">
+							<gml:timePosition>2019-03-11T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200004">
+							<gml:beginPosition>2019-03-11T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>O1</aixm:designator>
+					<aixm:type>OTHER</aixm:type>
+					<aixm:name>OPTION1</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id200005"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.574218163677 -1.0285862451124</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:Airspace gml:id="id200006">
+			<gml:identifier codeSpace="urn:uuid:">185a12ba-4448-4c43-ae21-a0becdad3280</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="id200007">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200008">
+							<gml:timePosition>2020-02-04T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200009">
+							<gml:beginPosition>2020-02-04T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>PART</aixm:type>
+					<aixm:designator xsi:nil="true"/>
+					<aixm:localType xsi:nil="true"/>
+					<aixm:name xsi:nil="true"/>
+					<aixm:designatorICAO>NO</aixm:designatorICAO>
+					<aixm:controlType xsi:nil="true"/>
+					<aixm:upperLowerSeparation xsi:nil="true"/>
+					<aixm:class>
+						<aixm:AirspaceLayerClass gml:id="id200010">
+							<aixm:classification xsi:nil="true"/>
+						</aixm:AirspaceLayerClass>
+					</aixm:class>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id200011">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id200012">
+									<aixm:horizontalProjection>
+										<aixm:Surface gml:id="id200013"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:patches>
+												<gml:PolygonPatch xsi:type="gml:PolygonPatchType"
+														interpolation="planar">
+													<gml:exterior>
+														<gml:Ring>
+															<gml:curveMember xlink:type="simple">
+																<gml:Curve gml:id="id200014">
+																	<gml:segments>
+																		<gml:ArcByCenterPoint interpolation="circularArcCenterPointWithRadius"
+																				numArc="1">
+																			<gml:pointProperty>
+																				<aixm:ElevatedPoint xsi:type="aixm:ElevatedPointType"
+																						gml:id="id200015">
+																					<gml:pos>51.308482433886 0.33166891294793</gml:pos>
+																					<aixm:horizontalAccuracy xsi:nil="true"/>
+																					<aixm:elevation xsi:nil="true"/>
+																				</aixm:ElevatedPoint>
+																			</gml:pointProperty>
+																			<gml:radius xsi:type="gml:LengthType"
+																					uom="Other">9.5569655139715</gml:radius>
+																			<gml:startAngle uom="deg">110.47515869141</gml:startAngle>
+																			<gml:endAngle uom="deg">290.47515869141</gml:endAngle>
+																		</gml:ArcByCenterPoint>
+																		<gml:LineStringSegment interpolation="linear">
+																			<gml:pointProperty>
+																				<aixm:ElevatedPoint gml:id="id200016">
+																					<gml:pos>51.251932174569 0.56877157059663</gml:pos>
+																					<aixm:horizontalAccuracy xsi:nil="true"/>
+																					<aixm:elevation xsi:nil="true"/>
+																				</aixm:ElevatedPoint>
+																			</gml:pointProperty>
+																			<gml:pointProperty>
+																				<aixm:ElevatedPoint xsi:type="aixm:ElevatedPointType"
+																						gml:id="id200017">
+																					<gml:pos>51.459589256956 0.72698003182963</gml:pos>
+																					<aixm:horizontalAccuracy xsi:nil="true"/>
+																					<aixm:elevation xsi:nil="true"/>
+																				</aixm:ElevatedPoint>
+																			</gml:pointProperty>
+																		</gml:LineStringSegment>
+																		<gml:LineStringSegment xsi:type="gml:LineStringSegmentType"
+																				interpolation="linear">
+																			<gml:pointProperty>
+																				<aixm:ElevatedPoint gml:id="id200018">
+																					<gml:pos>51.459589256956 0.72698003182963</gml:pos>
+																					<aixm:horizontalAccuracy xsi:nil="true"/>
+																					<aixm:elevation xsi:nil="true"/>
+																				</aixm:ElevatedPoint>
+																			</gml:pointProperty>
+																			<gml:pointProperty>
+																				<aixm:ElevatedPoint xsi:type="aixm:ElevatedPointType"
+																						gml:id="id200019">
+																					<gml:pos>51.57025951206 0.27096461335535</gml:pos>
+																					<aixm:horizontalAccuracy xsi:nil="true"/>
+																					<aixm:elevation xsi:nil="true"/>
+																				</aixm:ElevatedPoint>
+																			</gml:pointProperty>
+																		</gml:LineStringSegment>
+																		<gml:LineStringSegment xsi:type="gml:LineStringSegmentType"
+																				interpolation="linear">
+																			<gml:pointProperty>
+																				<aixm:ElevatedPoint gml:id="id200020">
+																					<gml:pos>51.57025951206 0.27096461335535</gml:pos>
+																					<aixm:horizontalAccuracy xsi:nil="true"/>
+																					<aixm:elevation xsi:nil="true"/>
+																				</aixm:ElevatedPoint>
+																			</gml:pointProperty>
+																			<gml:pointProperty>
+																				<aixm:ElevatedPoint xsi:type="aixm:ElevatedPointType"
+																						gml:id="id200021">
+																					<gml:pos>51.364573200944 0.094004709306034</gml:pos>
+																					<aixm:horizontalAccuracy xsi:nil="true"/>
+																					<aixm:elevation xsi:nil="true"/>
+																				</aixm:ElevatedPoint>
+																			</gml:pointProperty>
+																		</gml:LineStringSegment>
+																	</gml:segments>
+																</gml:Curve>
+															</gml:curveMember>
+														</gml:Ring>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:Airspace gml:id="id200022">
+			<gml:identifier codeSpace="urn:uuid:">1f5c0c7d-9802-43d9-bd36-2420fb7f15d2</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="id200023">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200024">
+							<gml:timePosition>2020-02-04T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200025">
+							<gml:beginPosition>2020-02-04T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>CLASS</aixm:type>
+					<aixm:designator>ARCY</aixm:designator>
+					<aixm:localType xsi:nil="true"/>
+					<aixm:name>ARCY</aixm:name>
+					<aixm:designatorICAO>NO</aixm:designatorICAO>
+					<aixm:controlType xsi:nil="true"/>
+					<aixm:upperLowerSeparation xsi:nil="true"/>
+					<aixm:class>
+						<aixm:AirspaceLayerClass gml:id="id200026">
+							<aixm:classification xsi:nil="true"/>
+						</aixm:AirspaceLayerClass>
+					</aixm:class>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id200027">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id200028">
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id200029">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:185a12ba-4448-4c43-ae21-a0becdad3280"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+</message:AIXMBasicMessage>

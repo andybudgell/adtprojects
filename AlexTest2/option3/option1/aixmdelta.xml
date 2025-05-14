@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id200127">
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id200001">
+			<gml:identifier codeSpace="urn:uuid:">0c9863bc-03f9-47a5-b188-f195b1830a24</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id200002">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200003">
+							<gml:timePosition>2019-04-12T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200004">
+							<gml:beginPosition>2019-04-12T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>T01A</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>T01A</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id200005"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.585487301092 -0.66693600500204</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id200006">
+			<gml:identifier codeSpace="urn:uuid:">3ce229ae-579a-4439-b76f-521158700263</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id200007">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200008">
+							<gml:timePosition>2019-04-12T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200009">
+							<gml:beginPosition>2019-04-12T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator/>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id200110">
+			<gml:identifier codeSpace="urn:uuid:">2beb0ae0-5d6c-4c1e-9732-b36988f093b7</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id200111">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200112">
+							<gml:timePosition>2019-06-24T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200113">
+							<gml:beginPosition>2019-06-24T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>T02A</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>T02A</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id200114"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.240508271988 0.47020112661675</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:Route gml:id="id200115">
+			<gml:identifier codeSpace="urn:uuid:">4bf97293-3c9b-4ba2-adb0-3e44498422d5</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteTimeSlice gml:id="id200116">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200117">
+							<gml:timePosition>2019-06-24T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200118">
+							<gml:beginPosition>2019-06-24T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designatorPrefix xsi:nil="true"/>
+					<aixm:designatorSecondLetter>T</aixm:designatorSecondLetter>
+					<aixm:designatorNumber>1</aixm:designatorNumber>
+					<aixm:multipleIdentifier>E</aixm:multipleIdentifier>
+					<aixm:type>ATS</aixm:type>
+				</aixm:RouteTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Route>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200119">
+			<gml:identifier codeSpace="urn:uuid:">d68f8888-9357-4a45-a880-ffbec8cddbb1</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200120">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200121">
+							<gml:timePosition>2019-06-24T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200122">
+							<gml:beginPosition>2019-06-24T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">460</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">0</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>0</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id200123">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:0c9863bc-03f9-47a5-b188-f195b1830a24"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:4bf97293-3c9b-4ba2-adb0-3e44498422d5"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id200124">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:2beb0ae0-5d6c-4c1e-9732-b36988f093b7"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id200125">
+							<aixm:direction>BOTH</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id200126">
+									<aixm:upperLimit uom="FL">460</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">0</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+</message:AIXMBasicMessage>

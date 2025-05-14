@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>AAAUserSecurity</projectName>
+    <aixmBaseline>UK_AIRAC_03_2023.xml</aixmBaseline>
+    <description>test security</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime></lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId></activeFlightSampleId>
+    <creator>802728</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>true</userPermissions>
+    <userPermissionsData>
+        <userPermissionsUsername>802728</userPermissionsUsername>
+        <userPermissionsSecurityLevel>r]XtZQSF@</userPermissionsSecurityLevel>
+    </userPermissionsData>
+    <userPermissionsData>
+        <userPermissionsUsername>802728</userPermissionsUsername>
+        <userPermissionsSecurityLevel>eXQFv\ZL</userPermissionsSecurityLevel>
+    </userPermissionsData>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

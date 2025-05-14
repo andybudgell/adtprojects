@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>804152</userName>
+        <creationDate>18/04/2019 13:40:03</creationDate>
+        <description>This is a test comment</description>
+        <featureUUID>5f18bab8-7597-4f63-94e5-128e64dd4014</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T99A</featureName>
+    </action>
+</actionLogs>

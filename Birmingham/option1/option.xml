@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>Birmingham</projectName>
+    <aixmBaseline>Birmingham_Airspace.xml</aixmBaseline>
+    <description>Birmingham</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>10/11/2022 12:58:18</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <closed>false</closed>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

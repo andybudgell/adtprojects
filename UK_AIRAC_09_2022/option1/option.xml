@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>UK_AIRAC_09_2022</projectName>
+    <aixmBaseline>UK_AIRAC_09_2022.xml</aixmBaseline>
+    <description>UK_AIRAC_09_2022</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>12/12/2022 17:18:08</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <closed>false</closed>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>804736</userName>
+        <creationDate>01/10/2019 09:59:36</creationDate>
+        <description>This is a waypoint for training</description>
+        <featureUUID>5e1dcb57-bfeb-4022-963c-a0e516082ac5</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>KB13A</featureName>
+    </action>
+</actionLogs>

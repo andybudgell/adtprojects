@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>MBR_Metrics_Test</projectName>
+    <aixmBaseline>UK_AIRAC_06_2024.xml</aixmBaseline>
+    <description>MBR_Metrics_Test</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>30/08/2024 19:55:47</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <creator>802728</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

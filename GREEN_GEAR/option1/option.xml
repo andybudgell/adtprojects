@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>GREEN_GEAR</projectName>
+    <aixmBaseline>UK_AIRAC_06_2024.xml</aixmBaseline>
+    <description>SESAR GREEN-GEAR</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>18/06/2024 13:29:41</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>-1</activeFlightSampleId>
+    <creator>802728</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

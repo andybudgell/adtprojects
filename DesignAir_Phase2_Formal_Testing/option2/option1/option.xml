@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>DesignAir_Phase2_Formal_Testing</projectName>
+    <aixmBaseline>UK_AIRAC_03_2023.xml</aixmBaseline>
+    <description>N92 Testing</description>
+    <optionName>Option 2.1</optionName>
+    <lastSavedDateTime>06/08/2024 09:22:53</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <creator>805846</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

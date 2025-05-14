@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>804152</userName>
+        <creationDate>08/08/2019 13:19:29</creationDate>
+        <description>Test</description>
+        <featureUUID>03394ed9-0888-472b-9d61-a6e7fb574191</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>00888</featureName>
+    </action>
+    <action>
+        <userName>804152</userName>
+        <creationDate>08/08/2019 13:19:35</creationDate>
+        <description>Test</description>
+        <featureUUID>fb576973-d37a-4ae6-9b6a-74191b9592e8</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T01A</featureName>
+    </action>
+</actionLogs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<featureLayer>
+    <layer>
+        <id>fb8d5cbd-d3a9-4f74-94a2-9ba95d0f82ff</id>
+        <name>HP AIRPORTS</name>
+        <class>NEW_AIRPORTS</class>
+        <features>
+            <feature>
+                <id>14e9d109-bf52-4a05-b3ce-195e37404b2c</id>
+                <type>Airport</type>
+            </feature>
+            <feature>
+                <id>9b2a2c11-cd09-4d83-ae88-060c799eac3b</id>
+                <type>Airport</type>
+            </feature>
+            <feature>
+                <id>d8e0f7e7-f3ad-49ff-91a7-e83b9aca2b23</id>
+                <type>Airport</type>
+            </feature>
+            <feature>
+                <id>e4cb7f7d-cf15-457a-889b-3d7c0081d397</id>
+                <type>Airport</type>
+            </feature>
+        </features>
+    </layer>
+</featureLayer>

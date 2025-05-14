@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id000167">
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">11581432-a4a9-43c6-9d01-bfb5b02495cf</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2024-05-22T12:50:44</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2024-05-22T12:50:44</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>1A4A9</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000004"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.421453615 0.390415647</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:StandardInstrumentDeparture gml:id="id000005">
+			<gml:identifier codeSpace="urn:uuid:">3a910c77-f9e3-4672-9843-c686df18d0ba</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:StandardInstrumentDepartureTimeSlice gml:id="id000006">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000007">
+							<gml:timePosition>2024-05-22T12:50:44</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000008">
+							<gml:beginPosition>2024-05-22T12:50:44</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:RNAV>NO</aixm:RNAV>
+					<aixm:airportHeliport xlink:href="urn:uuid:afe7275f-b219-4122-bc19-9794830010fa"/>
+					<aixm:flightTransition>
+						<aixm:ProcedureTransition gml:id="id000009">
+							<aixm:type>RWY</aixm:type>
+							<aixm:departureRunwayTransition>
+								<aixm:LandingTakeoffAreaCollection gml:id="id000010">
+									<aixm:runway xlink:href="urn:uuid:053e90f9-791b-4f76-a1a6-6e68e8531c51"/>
+								</aixm:LandingTakeoffAreaCollection>
+							</aixm:departureRunwayTransition>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000011">
+									<aixm:seqNumberARINC>10</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:7e088b05-f96d-461a-a290-9e962d382ddb"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000012">
+									<aixm:seqNumberARINC>20</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:9a680c23-5f37-4524-9cdc-64a791ca8819"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000013">
+									<aixm:seqNumberARINC>30</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:fdff83f8-2a3d-4c93-8b83-3acedfe92de4"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+						</aixm:ProcedureTransition>
+					</aixm:flightTransition>
+					<aixm:designator>UOMSID</aixm:designator>
+				</aixm:StandardInstrumentDepartureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:StandardInstrumentDeparture>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DepartureLeg gml:id="id000014">
+			<gml:identifier codeSpace="urn:uuid:">7e088b05-f96d-461a-a290-9e962d382ddb</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DepartureLegTimeSlice gml:id="id000015">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000016">
+							<gml:timePosition>2024-05-22T12:50:44</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000017">
+							<gml:beginPosition>2024-05-22T12:50:44</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course xsi:nil="true"/>
+					<aixm:courseType xsi:nil="true"/>
+					<aixm:courseDirection xsi:nil="true"/>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:upperLimitAltitude xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000019">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:cb77b5b2-265e-40a4-ab00-a838548a2c3f"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:arcCentre xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:departure xlink:href="urn:uuid:3a910c77-f9e3-4672-9843-c686df18d0ba"/>
+				</aixm:DepartureLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DepartureLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DepartureLeg gml:id="id000021">
+			<gml:identifier codeSpace="urn:uuid:">9a680c23-5f37-4524-9cdc-64a791ca8819</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DepartureLegTimeSlice gml:id="id000022">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000023">
+							<gml:timePosition>2024-05-22T12:50:44</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000024">
+							<gml:beginPosition>2024-05-22T12:50:44</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>55.946709</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit>100</aixm:speedLimit>
+					<aixm:speedReference>KT</aixm:speedReference>
+					<aixm:speedInterpretation>AT_LOWER</aixm:speedInterpretation>
+					<aixm:length uom="NM">9.341544</aixm:length>
+					<aixm:upperLimitAltitude xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000026">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:8a29f938-0c49-4105-8ed6-371fbfc3c06e"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:arcCentre xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:departure xlink:href="urn:uuid:3a910c77-f9e3-4672-9843-c686df18d0ba"/>
+				</aixm:DepartureLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DepartureLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DepartureLeg gml:id="id000028">
+			<gml:identifier codeSpace="urn:uuid:">fdff83f8-2a3d-4c93-8b83-3acedfe92de4</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DepartureLegTimeSlice gml:id="id000029">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000030">
+							<gml:timePosition>2024-05-22T12:50:44</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000031">
+							<gml:beginPosition>2024-05-22T12:50:44</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>46.666359</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">7.575111</aixm:length>
+					<aixm:upperLimitAltitude xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000033">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:11581432-a4a9-43c6-9d01-bfb5b02495cf"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:arcCentre xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:departure xlink:href="urn:uuid:3a910c77-f9e3-4672-9843-c686df18d0ba"/>
+				</aixm:DepartureLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DepartureLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000032">
+			<gml:identifier codeSpace="urn:uuid:">602dd9da-65f7-48e0-84cc-83b88f3b974a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000033">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000034">
+							<gml:timePosition>2024-05-22T13:20:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000035">
+							<gml:beginPosition>2024-05-22T13:20:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>IF</aixm:legTypeARINC>
+					<aixm:course xsi:nil="true"/>
+					<aixm:courseType xsi:nil="true"/>
+					<aixm:courseDirection xsi:nil="true"/>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:altitudeInterpretation/>
+					<aixm:startPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000036">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:57f8eefd-51b2-4948-890f-525f264e2f27"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:startPoint>
+					<aixm:approach xlink:href="urn:uuid:d9a59785-96dc-4066-ba47-8bc780afb628"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000038">
+			<gml:identifier codeSpace="urn:uuid:">d15b0fb9-aabd-4f41-81d0-548ee426f400</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000039">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000040">
+							<gml:timePosition>2024-05-22T13:20:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000041">
+							<gml:beginPosition>2024-05-22T13:20:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>217.55102</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">7.805288</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000042">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:8a29f938-0c49-4105-8ed6-371fbfc3c06e"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:d9a59785-96dc-4066-ba47-8bc780afb628"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000044">
+			<gml:identifier codeSpace="urn:uuid:">2a36eb71-4f1d-4038-b8f6-3083416ac63f</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000045">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000046">
+							<gml:timePosition>2024-05-22T13:20:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000047">
+							<gml:beginPosition>2024-05-22T13:20:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>236.107205</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">9.341544</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000048">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:cb77b5b2-265e-40a4-ab00-a838548a2c3f"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:d9a59785-96dc-4066-ba47-8bc780afb628"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">d9a59785-96dc-4066-ba47-8bc780afb628</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000000">
+							<gml:timePosition>2024-05-22T13:25:28</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000001">
+							<gml:beginPosition>2024-05-22T13:25:28</gml:beginPosition>
+							<gml:endPosition>2024-05-22T13:25:28</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>RNPTRAN</aixm:name>
+					<aixm:RNAV>NO</aixm:RNAV>
+					<aixm:airportHeliport xlink:href="urn:uuid:afe7275f-b219-4122-bc19-9794830010fa"/>
+					<aixm:flightTransition>
+						<aixm:ProcedureTransition gml:id="id000029">
+							<aixm:transitionId>GOBOP</aixm:transitionId>
+							<aixm:type>RWY</aixm:type>
+							<aixm:departureRunwayTransition>
+								<aixm:LandingTakeoffAreaCollection gml:id="id000031">
+									<aixm:runway xlink:href="urn:uuid:053e90f9-791b-4f76-a1a6-6e68e8531c51"/>
+								</aixm:LandingTakeoffAreaCollection>
+							</aixm:departureRunwayTransition>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000037">
+									<aixm:seqNumberARINC>10</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:602dd9da-65f7-48e0-84cc-83b88f3b974a"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000043">
+									<aixm:seqNumberARINC>20</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:d15b0fb9-aabd-4f41-81d0-548ee426f400"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000049">
+									<aixm:seqNumberARINC>30</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:2a36eb71-4f1d-4038-b8f6-3083416ac63f"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+						</aixm:ProcedureTransition>
+					</aixm:flightTransition>
+					<aixm:approachType>OTHER</aixm:approachType>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:StandardInstrumentArrival gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">bdf91b51-b2c1-4117-b7e4-7c13e4f9d879</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:StandardInstrumentArrivalTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2024-05-22T13:20:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2024-05-22T13:20:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:RNAV>NO</aixm:RNAV>
+					<aixm:airportHeliport xlink:href="urn:uuid:afe7275f-b219-4122-bc19-9794830010fa"/>
+					<aixm:flightTransition>
+						<aixm:ProcedureTransition gml:id="id000004">
+							<aixm:type>EN_ROUTE</aixm:type>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000005">
+									<aixm:seqNumberARINC>10</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:888b420c-6951-4d06-9bed-383adb59e758"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000006">
+									<aixm:seqNumberARINC>20</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:13c46bc0-3209-4c45-8caa-5467abc9f321"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000007">
+									<aixm:seqNumberARINC>30</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:e4fc29db-319e-40fa-8f37-f3ba6e4bb63d"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+						</aixm:ProcedureTransition>
+					</aixm:flightTransition>
+					<aixm:designator>NILSTAR</aixm:designator>
+				</aixm:StandardInstrumentArrivalTimeSlice>
+			</aixm:timeSlice>
+		</aixm:StandardInstrumentArrival>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id000008">
+			<gml:identifier codeSpace="urn:uuid:">888b420c-6951-4d06-9bed-383adb59e758</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id000009">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000010">
+							<gml:timePosition>2024-05-22T13:20:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000011">
+							<gml:beginPosition>2024-05-22T13:20:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course xsi:nil="true"/>
+					<aixm:courseType xsi:nil="true"/>
+					<aixm:courseDirection xsi:nil="true"/>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:upperLimitAltitude xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000013">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:57f8eefd-51b2-4948-890f-525f264e2f27"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:arcCentre xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:bdf91b51-b2c1-4117-b7e4-7c13e4f9d879"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id000015">
+			<gml:identifier codeSpace="urn:uuid:">13c46bc0-3209-4c45-8caa-5467abc9f321</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id000016">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000017">
+							<gml:timePosition>2024-05-22T13:20:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000018">
+							<gml:beginPosition>2024-05-22T13:20:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>217.55102</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">7.805288</aixm:length>
+					<aixm:upperLimitAltitude xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000020">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:8a29f938-0c49-4105-8ed6-371fbfc3c06e"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:arcCentre xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:bdf91b51-b2c1-4117-b7e4-7c13e4f9d879"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id000022">
+			<gml:identifier codeSpace="urn:uuid:">e4fc29db-319e-40fa-8f37-f3ba6e4bb63d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id000023">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000024">
+							<gml:timePosition>2024-05-22T13:20:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000025">
+							<gml:beginPosition>2024-05-22T13:20:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>236.107205</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">9.341544</aixm:length>
+					<aixm:upperLimitAltitude xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000027">
+							<aixm:flyOver>NO</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:cb77b5b2-265e-40a4-ab00-a838548a2c3f"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:arcCentre xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:bdf91b51-b2c1-4117-b7e4-7c13e4f9d879"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">1eec56b7-1aac-42ba-8745-d3ab521e0d98</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>11AAC</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000004"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.26811366 0.369309911</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000005">
+			<gml:identifier codeSpace="urn:uuid:">2a22fff3-2f42-4ecd-ba09-fc8c36a48660</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000006">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000007">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000008">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>22F42</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000009"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.304401641 0.088193696</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000010">
+			<gml:identifier codeSpace="urn:uuid:">2b1b40d6-2bfb-4fdc-8703-68d3de0a7dcd</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000011">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000012">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000013">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>22BFB</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000014"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.124889052 -0.002967122</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000015">
+			<gml:identifier codeSpace="urn:uuid:">39362b37-9fa5-4e8a-835e-856574fe0cdc</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000016">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000017">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000018">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>39FA5</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000019"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.382959601 0.457625539</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000020">
+			<gml:identifier codeSpace="urn:uuid:">4e5f8b7a-c5a7-4e7f-94f5-bc7e32f942de</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000021">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000022">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000023">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>4C5A7</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000024"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.169738114 0.001369364</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000025">
+			<gml:identifier codeSpace="urn:uuid:">55eccde1-8087-4b83-8a37-91f53103f88b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000026">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000027">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000028">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>58087</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000029"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.31719852 0.462202892</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000030">
+			<gml:identifier codeSpace="urn:uuid:">655f4a29-4de8-40af-8dd9-862ad9e76264</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000031">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000032">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000033">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>64DE8</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000034"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.171904609 -0.127594301</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000035">
+			<gml:identifier codeSpace="urn:uuid:">6bda28c6-18b4-4012-a9bd-2ce147c23686</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000036">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000037">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000038">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>618B4</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000039"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.367287689 0.214885636</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000040">
+			<gml:identifier codeSpace="urn:uuid:">79278df1-74ca-45b2-b19a-90cdbfc43c51</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000041">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000042">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000043">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>774CA</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000044"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.406144358 0.331595855</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000045">
+			<gml:identifier codeSpace="urn:uuid:">8dbf9a1d-ceda-4cb9-b28d-16141d3ac592</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000046">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000047">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000048">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>8CEDA</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000049"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.268056445 -0.092706305</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000050">
+			<gml:identifier codeSpace="urn:uuid:">bdf10cb6-3775-42bc-8bab-8dcd620018e9</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000051">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000052">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000053">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>B3775</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000054"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.189489127 0.148113439</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000055">
+			<gml:identifier codeSpace="urn:uuid:">dba3b666-e120-4ab3-967f-399933d8f3c5</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000056">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000057">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000058">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>DE120</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000059"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.207795922 -0.113290848</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000060">
+			<gml:identifier codeSpace="urn:uuid:">e75f9b87-05b6-4eac-83e6-eb446902f442</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000061">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000062">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000063">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>E05B6</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000064"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.212726881 0.198537186</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:DesignatedPoint gml:id="id000065">
+			<gml:identifier codeSpace="urn:uuid:">f2168842-88fa-4faf-87b6-373c2c7043bb</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000066">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000067">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000068">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>F88FA</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000069"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.284598914 -0.001875892</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:InitialLeg gml:id="id000077">
+			<gml:identifier codeSpace="urn:uuid:">50015c0d-c7ca-496f-b02d-508cb69395d8</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000078">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000079">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000080">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course xsi:nil="true"/>
+					<aixm:courseType xsi:nil="true"/>
+					<aixm:courseDirection xsi:nil="true"/>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000081">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:57f8eefd-51b2-4948-890f-525f264e2f27"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000083">
+			<gml:identifier codeSpace="urn:uuid:">fcdefd6b-e0a7-4c38-b0e7-bcbf643f5213</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000084">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000085">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000086">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>135.181823</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">4.666047</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000087">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:39362b37-9fa5-4e8a-835e-856574fe0cdc"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000089">
+			<gml:identifier codeSpace="urn:uuid:">0e4de732-05be-4544-9e19-d6d89fbb4360</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000090">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000091">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000092">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>286.435852</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">4.936902</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000093">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:79278df1-74ca-45b2-b19a-90cdbfc43c51"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000095">
+			<gml:identifier codeSpace="urn:uuid:">060d888e-2e28-4b1f-ab44-372f9c414de2</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000096">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000097">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000098">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>137.357452</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">7.257895</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000099">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:55eccde1-8087-4b83-8a37-91f53103f88b"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000101">
+			<gml:identifier codeSpace="urn:uuid:">623496b2-e8c6-4db1-8cc1-f3d7cf3f0630</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000102">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000103">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000104">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>288.016204</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">9.779521</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000105">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:6bda28c6-18b4-4012-a9bd-2ce147c23686"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000107">
+			<gml:identifier codeSpace="urn:uuid:">ad975067-4fe9-4147-bde3-47cdfd0df004</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000108">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000109">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000110">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>135.64278</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">8.323854</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000111">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:1eec56b7-1aac-42ba-8745-d3ab521e0d98"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000113">
+			<gml:identifier codeSpace="urn:uuid:">aa1dbc49-b727-4ee6-bc6f-d04fd4f267c8</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000114">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000115">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000116">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>281.741612</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">10.811683</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000117">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:2a22fff3-2f42-4ecd-ba09-fc8c36a48660"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000119">
+			<gml:identifier codeSpace="urn:uuid:">2fcdbfaf-bada-4ff0-adc7-5f98bb6b3337</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000120">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000121">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000122">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>142.89558</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">6.901185</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000123">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:e75f9b87-05b6-4eac-83e6-eb446902f442"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000125">
+			<gml:identifier codeSpace="urn:uuid:">88e5c82f-011f-43db-b65b-8903a69cf19c</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000126">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000127">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000128">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>299.822592</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">8.702273</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000129">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:f2168842-88fa-4faf-87b6-373c2c7043bb"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000131">
+			<gml:identifier codeSpace="urn:uuid:">14521635-c643-4e44-8736-029d713d5539</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000132">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000133">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000134">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>135.230121</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">8.03958</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000135">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:bdf10cb6-3775-42bc-8bab-8dcd620018e9"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000137">
+			<gml:identifier codeSpace="urn:uuid:">2ba4545c-2a12-4e08-a404-e07e8ee4e526</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000138">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000139">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000140">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>297.55092</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">10.236016</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000141">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:8dbf9a1d-ceda-4cb9-b28d-16141d3ac592"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000143">
+			<gml:identifier codeSpace="urn:uuid:">320343e5-c5ee-45be-a6ce-aab40fc1c519</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000144">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000145">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000146">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>148.961539</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">6.890419</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000147">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:4e5f8b7a-c5a7-4e7f-94f5-bc7e32f942de"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000149">
+			<gml:identifier codeSpace="urn:uuid:">20f074f2-6f63-4b0e-8b53-3a901c89da3f</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000150">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000151">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000152">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>297.886887</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">4.895055</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000153">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:dba3b666-e120-4ab3-967f-399933d8f3c5"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000155">
+			<gml:identifier codeSpace="urn:uuid:">5eb60fd5-f0a4-42a4-b681-f65a01e0770b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000156">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000157">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000158">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>140.039865</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">6.493443</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000159">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:2b1b40d6-2bfb-4fdc-8703-68d3de0a7dcd"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id000161">
+			<gml:identifier codeSpace="urn:uuid:">92347ac0-01eb-4695-a878-4e79bdf51207</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id000162">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000163">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000164">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:course>301.003442</aixm:course>
+					<aixm:courseType>TRUE_BRG</aixm:courseType>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:speedLimit xsi:nil="true"/>
+					<aixm:speedInterpretation xsi:nil="true"/>
+					<aixm:length uom="NM">5.490788</aixm:length>
+					<aixm:altitudeInterpretation/>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id000165">
+							<aixm:flyOver>YES</aixm:flyOver>
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:655f4a29-4de8-40af-8dd9-862ad9e76264"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:bf996470-44df-4d3d-919a-07866223441a"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="id000070">
+			<gml:identifier codeSpace="urn:uuid:">bf996470-44df-4d3d-919a-07866223441a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="id000071">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000072">
+							<gml:timePosition>2024-05-22T14:46:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000073">
+							<gml:beginPosition>2024-05-22T14:46:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>FLYOVER</aixm:name>
+					<aixm:RNAV>NO</aixm:RNAV>
+					<aixm:airportHeliport xlink:href="urn:uuid:afe7275f-b219-4122-bc19-9794830010fa"/>
+					<aixm:flightTransition>
+						<aixm:ProcedureTransition gml:id="id000074">
+							<aixm:type>RWY</aixm:type>
+							<aixm:departureRunwayTransition>
+								<aixm:LandingTakeoffAreaCollection gml:id="id000076">
+									<aixm:runway xlink:href="urn:uuid:053e90f9-791b-4f76-a1a6-6e68e8531c51"/>
+								</aixm:LandingTakeoffAreaCollection>
+							</aixm:departureRunwayTransition>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000082">
+									<aixm:seqNumberARINC>10</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:50015c0d-c7ca-496f-b02d-508cb69395d8"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000088">
+									<aixm:seqNumberARINC>20</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:fcdefd6b-e0a7-4c38-b0e7-bcbf643f5213"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000094">
+									<aixm:seqNumberARINC>30</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:0e4de732-05be-4544-9e19-d6d89fbb4360"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000100">
+									<aixm:seqNumberARINC>40</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:060d888e-2e28-4b1f-ab44-372f9c414de2"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000106">
+									<aixm:seqNumberARINC>50</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:623496b2-e8c6-4db1-8cc1-f3d7cf3f0630"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000112">
+									<aixm:seqNumberARINC>60</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:ad975067-4fe9-4147-bde3-47cdfd0df004"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000118">
+									<aixm:seqNumberARINC>70</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:aa1dbc49-b727-4ee6-bc6f-d04fd4f267c8"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000124">
+									<aixm:seqNumberARINC>80</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:2fcdbfaf-bada-4ff0-adc7-5f98bb6b3337"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000130">
+									<aixm:seqNumberARINC>90</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:88e5c82f-011f-43db-b65b-8903a69cf19c"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000136">
+									<aixm:seqNumberARINC>100</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:14521635-c643-4e44-8736-029d713d5539"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000142">
+									<aixm:seqNumberARINC>110</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:2ba4545c-2a12-4e08-a404-e07e8ee4e526"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000148">
+									<aixm:seqNumberARINC>120</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:320343e5-c5ee-45be-a6ce-aab40fc1c519"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000154">
+									<aixm:seqNumberARINC>130</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:20f074f2-6f63-4b0e-8b53-3a901c89da3f"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000160">
+									<aixm:seqNumberARINC>140</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:5eb60fd5-f0a4-42a4-b681-f65a01e0770b"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id000166">
+									<aixm:seqNumberARINC>150</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:92347ac0-01eb-4695-a878-4e79bdf51207"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+						</aixm:ProcedureTransition>
+					</aixm:flightTransition>
+					<aixm:approachType>OTHER</aixm:approachType>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+</message:AIXMBasicMessage>

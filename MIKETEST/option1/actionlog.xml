@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:21:33</creationDate>
+        <description>A STAR linking the routes from the east to the ABBOT hold.</description>
+        <featureUUID>e54f338b-cc1f-466a-aac9-64c2f967a1e8</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>STR04</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:22:19</creationDate>
+        <description>A STAR linking the routes from the east to the ABBOT hold.</description>
+        <featureUUID>6c6eb244-8262-4fa9-96b8-932753e83a8c</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>STR03</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:22:29</creationDate>
+        <description>A STAR linking the routes from the south to the LAPRA hold.</description>
+        <featureUUID>9f53d5d2-f014-45f6-ab09-77135333f3db</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>STR11</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:22:58</creationDate>
+        <description>A STAR linking the routes from the south to the LAPRA hold.</description>
+        <featureUUID>2130dde4-a6da-48ba-9960-aaf336ad2662</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>STR14</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:23:07</creationDate>
+        <description>A STAR linking the routes from the north to the LAPRA hold.</description>
+        <featureUUID>9250af03-a7f8-484a-835f-c67cffd57605</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>STR08</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:23:27</creationDate>
+        <description>A STAR linking the routes from the north to the LAPRA hold.</description>
+        <featureUUID>1f9748b9-75c7-46dc-8947-9f5f4a586520</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>STR06</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:23:32</creationDate>
+        <description>A STAR linking the routes from the north to the LAPRA hold.</description>
+        <featureUUID>83e6e846-645d-4148-9663-7899a1ecf556</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>STR10</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:24:10</creationDate>
+        <description>A SID departing EGSS to the east.</description>
+        <featureUUID>365697d3-73d7-4cb1-9fa0-88ba7f432a84</featureUUID>
+        <featureType>SID</featureType>
+        <featureName>SID01</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:24:34</creationDate>
+        <description>A SID departing EGGW to the north.</description>
+        <featureUUID>a9e55863-96cb-4e34-ace7-6cf1f65b1116</featureUUID>
+        <featureType>SID</featureType>
+        <featureName>SID02</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:25:15</creationDate>
+        <description>A transition from ABBOT to EGGW.</description>
+        <featureUUID>95df59e5-fee6-463b-a49b-7655d9b8b814</featureUUID>
+        <featureType>Transition</featureType>
+        <featureName>TRN01</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:25:39</creationDate>
+        <description>A transition from LOREL to EGGW.</description>
+        <featureUUID>14f27414-60d6-49a9-82a3-9565380d07d7</featureUUID>
+        <featureType>Transition</featureType>
+        <featureName>TRN02</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:25:51</creationDate>
+        <description>A transition from ABBOT to EGSS.</description>
+        <featureUUID>229f9d2e-bdde-4171-aa79-61f3c9efa314</featureUUID>
+        <featureType>Transition</featureType>
+        <featureName>TRN03</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:26:09</creationDate>
+        <description>A transition from LOREL to EGSS.</description>
+        <featureUUID>eb734b95-5b35-47aa-9891-9ba85a2cfb94</featureUUID>
+        <featureType>Transition</featureType>
+        <featureName>TRN04</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:47:51</creationDate>
+        <description>A route from the east to the ABBOT hold passsing through Amsterdam and TC East.</description>
+        <featureUUID>f636dea2-7c83-4b4b-8fea-859683c6238e</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A10A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:50:21</creationDate>
+        <description>A route from the east to the ABBOT hold passsing through Amsterdam and TC East.</description>
+        <featureUUID>a82de569-2ee7-40e2-85cd-72ee66e5bdfb</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A11A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:50:27</creationDate>
+        <description>A route from the east to the ABBOT hold passsing through Amsterdam and TC East.</description>
+        <featureUUID>afa376c4-009b-41c3-9832-cb4e70d802f8</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A12A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:50:32</creationDate>
+        <description>A route from the east to the ABBOT hold passsing through Amsterdam and TC East.</description>
+        <featureUUID>f7f36e1d-d83c-4c15-94ee-1e7338956faa</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A13A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:50:38</creationDate>
+        <description>A route from the east to the ABBOT hold passsing through Amsterdam and TC East.</description>
+        <featureUUID>e191ea76-5c3f-494b-a4f2-5138dc951c72</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A14A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:50:42</creationDate>
+        <description>A route from the east to the ABBOT hold passsing through Amsterdam and TC East.</description>
+        <featureUUID>42502a5c-18c9-403b-8207-c7869c15bf0e</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A15A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:50:52</creationDate>
+        <description>A route that links up to the SID departing EGSS, passing through TC EAST and then exiting via Amsterdam.</description>
+        <featureUUID>6f43d811-a3ba-43b4-8a01-da3160a75c65</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A22A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:53:13</creationDate>
+        <description>A route from the north passsing through TC North, into TC East and then into the LOREL hold.</description>
+        <featureUUID>baf14049-c36f-41aa-853f-30cfad14099f</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A16A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:54:02</creationDate>
+        <description>A route from the north going through TC North into the LOREL hold.</description>
+        <featureUUID>c777f0dd-735c-404f-9741-7680da873d59</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A17A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:54:27</creationDate>
+        <description>A route from the west going through TC North into the LOREL hold.</description>
+        <featureUUID>97893829-15a6-4739-a9f0-67583f5c42e8</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A18A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:54:39</creationDate>
+        <description>A route that links to the SID departing EGGW to the north, passing through TC North, then briefly through TC East to then go back into North.</description>
+        <featureUUID>a4c7ba90-b146-4f48-a711-612cddf23c3a</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A23A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:58:21</creationDate>
+        <description>A route from the south passing through TC Capital and then into the LOREL hold.</description>
+        <featureUUID>4151b2cd-2f05-48da-ad07-44501ade3e01</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A21A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:58:53</creationDate>
+        <description>A route from the south passing through TC Capital and then into the LOREL hold.</description>
+        <featureUUID>43f6ce2c-3b10-4b41-b024-bd88577a0526</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A20A</featureName>
+    </action>
+    <action>
+        <userName>803485</userName>
+        <creationDate>10/06/2019 09:58:58</creationDate>
+        <description>A route from the south passing through TC Capital and then into the LOREL hold.</description>
+        <featureUUID>e9f17eb3-d04c-471a-b12b-85ddf7ad0c45</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>A19A</featureName>
+    </action>
+</actionLogs>

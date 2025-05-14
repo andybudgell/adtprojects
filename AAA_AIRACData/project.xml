@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>AAA_AIRACData</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>Additional AIRAC Data</description>
+    <targetDate>Wed Jan 24 2024</targetDate>
+</adtProjectConfig>

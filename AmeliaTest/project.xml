@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>AmeliaTest</projectName>
+    <aixmBaseline>UK_AIRAC_06_2024.xml</aixmBaseline>
+    <description>dev sim running</description>
+    <targetDate>Thu May 23 2024</targetDate>
+</adtProjectConfig>

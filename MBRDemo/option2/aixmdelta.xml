@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id000002">
+	<message:hasMember>
+		<aixm:AirportHeliport gml:id="id61109">
+			<gml:identifier codeSpace="urn:uuid:">7140c54c-595c-457e-921f-9b490c5df33d</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:AirportHeliportTimeSlice gml:id="id57447">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000000">
+							<gml:timePosition>2023-11-06T10:52:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000001">
+							<gml:beginPosition>2023-11-06T10:52:56</gml:beginPosition>
+							<gml:endPosition>2023-11-06T10:52:56</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>EGBB</aixm:designator>
+					<aixm:name>BIRMINGHAM</aixm:name>
+					<aixm:locationIndicatorICAO>EGBB</aixm:locationIndicatorICAO>
+					<aixm:designatorIATA xsi:nil="true"/>
+					<aixm:type>AH</aixm:type>
+					<aixm:certifiedICAO xsi:nil="true"/>
+					<aixm:privateUse xsi:nil="true"/>
+					<aixm:controlType xsi:nil="true"/>
+					<aixm:fieldElevation uom="FT">339</aixm:fieldElevation>
+					<aixm:fieldElevationAccuracy xsi:nil="true"/>
+					<aixm:verticalDatum>OTHER:OSGM02</aixm:verticalDatum>
+					<aixm:magneticVariation>-0.1328</aixm:magneticVariation>
+					<aixm:magneticVariationAccuracy>0.3725</aixm:magneticVariationAccuracy>
+					<aixm:dateMagneticVariation>2022</aixm:dateMagneticVariation>
+					<aixm:magneticVariationChange>0.2021</aixm:magneticVariationChange>
+					<aixm:referenceTemperature uom="C">18</aixm:referenceTemperature>
+					<aixm:altimeterCheckLocation xsi:nil="true"/>
+					<aixm:secondaryPowerSupply xsi:nil="true"/>
+					<aixm:windDirectionIndicator xsi:nil="true"/>
+					<aixm:landingDirectionIndicator xsi:nil="true"/>
+					<aixm:transitionAltitude uom="FT">6000</aixm:transitionAltitude>
+					<aixm:transitionLevel xsi:nil="true"/>
+					<aixm:lowestTemperature xsi:nil="true"/>
+					<aixm:abandoned xsi:nil="true"/>
+					<aixm:certificationDate>2016-06-29</aixm:certificationDate>
+					<aixm:certificationExpirationDate xsi:nil="true"/>
+					<aixm:responsibleOrganisation>
+						<aixm:AirportHeliportResponsibilityOrganisation gml:id="id60725">
+							<aixm:timeInterval xsi:nil="true"/>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:specialDateAuthority/>
+							<aixm:role xsi:nil="true"/>
+							<aixm:theOrganisationAuthority xlink:type="simple"
+									xlink:href="urn:uuid:b6a8c640-7153-4693-902a-3c39f48661a4"/>
+						</aixm:AirportHeliportResponsibilityOrganisation>
+					</aixm:responsibleOrganisation>
+					<aixm:ARP>
+						<aixm:ElevatedPoint gml:id="id57446"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">52.4538556 -1.7480278</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true"/>
+							<aixm:elevation xsi:nil="true"/>
+							<aixm:geoidUndulation uom="FT">162</aixm:geoidUndulation>
+							<aixm:verticalDatum xsi:nil="true"/>
+							<aixm:verticalAccuracy xsi:nil="true"/>
+						</aixm:ElevatedPoint>
+					</aixm:ARP>
+					<aixm:aviationBoundary xsi:nil="true"/>
+					<aixm:contact>
+						<aixm:ContactInformation xsi:type="aixm:ContactInformationType"
+								gml:id="id57762">
+							<aixm:name>BIRMINGHAM AIRPORT.</aixm:name>
+							<aixm:address>
+								<aixm:PostalAddress gml:id="id58345">
+									<aixm:annotation xsi:nil="true"/>
+									<aixm:deliveryPoint>Birmingham Airport, Birmingham B26 3QJ.</aixm:deliveryPoint>
+								</aixm:PostalAddress>
+							</aixm:address>
+							<aixm:networkNode>
+								<aixm:OnlineContact gml:id="id58206">
+									<aixm:annotation xsi:nil="true"/>
+									<aixm:network>INTERNET</aixm:network>
+									<aixm:eMail>ADM@birminghamairport.co.uk (Airfield Duty Manager)</aixm:eMail>
+								</aixm:OnlineContact>
+							</aixm:networkNode>
+							<aixm:networkNode>
+								<aixm:OnlineContact gml:id="id58207">
+									<aixm:annotation xsi:nil="true"/>
+									<aixm:network>OTHER:TLX</aixm:network>
+									<aixm:linkage>337537 EGBB (CAA)</aixm:linkage>
+								</aixm:OnlineContact>
+							</aixm:networkNode>
+							<aixm:networkNode>
+								<aixm:OnlineContact gml:id="id58208">
+									<aixm:annotation xsi:nil="true"/>
+									<aixm:network>AFTN</aixm:network>
+									<aixm:linkage>EGBBYDYX</aixm:linkage>
+								</aixm:OnlineContact>
+							</aixm:networkNode>
+							<aixm:phoneFax>
+								<aixm:TelephoneContact gml:id="id59403">
+									<aixm:annotation>
+										<aixm:Note gml:id="id59404">
+											<aixm:propertyName>voice</aixm:propertyName>
+											<aixm:purpose>DESCRIPTION</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="id59405">
+													<aixm:note lang="eng">(Airport)</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+									<aixm:voice>0871-222 0072</aixm:voice>
+								</aixm:TelephoneContact>
+							</aixm:phoneFax>
+							<aixm:phoneFax>
+								<aixm:TelephoneContact gml:id="id59406">
+									<aixm:annotation>
+										<aixm:Note gml:id="id59407">
+											<aixm:propertyName>voice</aixm:propertyName>
+											<aixm:purpose>DESCRIPTION</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="id59408">
+													<aixm:note lang="eng">(ATC)</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+									<aixm:voice>0121-767 1235</aixm:voice>
+								</aixm:TelephoneContact>
+							</aixm:phoneFax>
+							<aixm:phoneFax>
+								<aixm:TelephoneContact gml:id="id59409">
+									<aixm:annotation>
+										<aixm:Note gml:id="id59410">
+											<aixm:propertyName>voice</aixm:propertyName>
+											<aixm:purpose>DESCRIPTION</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="id59411">
+													<aixm:note lang="eng">(Airfield Duty Manager)</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+									<aixm:voice>0121-767 7139</aixm:voice>
+								</aixm:TelephoneContact>
+							</aixm:phoneFax>
+							<aixm:phoneFax>
+								<aixm:TelephoneContact gml:id="id59412">
+									<aixm:annotation>
+										<aixm:Note gml:id="id59413">
+											<aixm:propertyName>voice</aixm:propertyName>
+											<aixm:purpose>DESCRIPTION</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="id59414">
+													<aixm:note lang="eng">(ATC ATIS)</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+									<aixm:voice>0121-767 1260</aixm:voice>
+								</aixm:TelephoneContact>
+							</aixm:phoneFax>
+							<aixm:phoneFax>
+								<aixm:TelephoneContact gml:id="id59415">
+									<aixm:annotation>
+										<aixm:Note gml:id="id59416">
+											<aixm:propertyName>voice</aixm:propertyName>
+											<aixm:purpose>DESCRIPTION</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="id59417">
+													<aixm:note lang="eng">(ATC Watch Manager)</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+									<aixm:voice>0121-767 1210</aixm:voice>
+								</aixm:TelephoneContact>
+							</aixm:phoneFax>
+							<aixm:phoneFax>
+								<aixm:TelephoneContact gml:id="id59418">
+									<aixm:annotation>
+										<aixm:Note gml:id="id59419">
+											<aixm:propertyName>facsimile</aixm:propertyName>
+											<aixm:purpose>DESCRIPTION</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="id59420">
+													<aixm:note lang="eng">(Airport)</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+									<aixm:facsimile>0121-782 8802</aixm:facsimile>
+								</aixm:TelephoneContact>
+							</aixm:phoneFax>
+							<aixm:phoneFax>
+								<aixm:TelephoneContact gml:id="id59421">
+									<aixm:annotation>
+										<aixm:Note gml:id="id59422">
+											<aixm:propertyName>facsimile</aixm:propertyName>
+											<aixm:purpose>DESCRIPTION</aixm:purpose>
+											<aixm:translatedNote>
+												<aixm:LinguisticNote gml:id="id59423">
+													<aixm:note lang="eng">(ATC)</aixm:note>
+												</aixm:LinguisticNote>
+											</aixm:translatedNote>
+										</aixm:Note>
+									</aixm:annotation>
+									<aixm:facsimile>0121-767 1239</aixm:facsimile>
+								</aixm:TelephoneContact>
+							</aixm:phoneFax>
+							<aixm:annotation xsi:nil="true"/>
+						</aixm:ContactInformation>
+					</aixm:contact>
+					<aixm:availability>
+						<aixm:AirportHeliportAvailability gml:id="id59580">
+							<aixm:timeInterval>
+								<aixm:Timesheet gml:id="id60058">
+									<aixm:startTime>00:00</aixm:startTime>
+									<aixm:endTime>24:00</aixm:endTime>
+									<aixm:excluded>NO</aixm:excluded>
+									<aixm:annotation xsi:nil="true"/>
+								</aixm:Timesheet>
+							</aixm:timeInterval>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+							<aixm:usage>
+								<aixm:AirportHeliportUsage gml:id="id60072">
+									<aixm:type>PERMIT</aixm:type>
+									<aixm:selection>
+										<aixm:ConditionCombination gml:id="id60663">
+											<aixm:logicalOperator>OR</aixm:logicalOperator>
+											<aixm:flight>
+												<aixm:FlightCharacteristic gml:id="id60191">
+													<aixm:rule>ALL</aixm:rule>
+													<aixm:annotation xsi:nil="true"/>
+												</aixm:FlightCharacteristic>
+											</aixm:flight>
+											<aixm:flight>
+												<aixm:FlightCharacteristic gml:id="id60319">
+													<aixm:origin>ALL</aixm:origin>
+													<aixm:annotation xsi:nil="true"/>
+												</aixm:FlightCharacteristic>
+											</aixm:flight>
+											<aixm:flight>
+												<aixm:FlightCharacteristic gml:id="id60377">
+													<aixm:purpose>SCHEDULED</aixm:purpose>
+													<aixm:annotation xsi:nil="true"/>
+												</aixm:FlightCharacteristic>
+											</aixm:flight>
+											<aixm:flight>
+												<aixm:FlightCharacteristic gml:id="id60434">
+													<aixm:purpose>NON_SCHEDULED</aixm:purpose>
+													<aixm:annotation xsi:nil="true"/>
+												</aixm:FlightCharacteristic>
+											</aixm:flight>
+											<aixm:flight>
+												<aixm:FlightCharacteristic gml:id="id60536">
+													<aixm:purpose>PRIVATE</aixm:purpose>
+													<aixm:annotation xsi:nil="true"/>
+												</aixm:FlightCharacteristic>
+											</aixm:flight>
+										</aixm:ConditionCombination>
+									</aixm:selection>
+									<aixm:annotation xsi:nil="true"/>
+								</aixm:AirportHeliportUsage>
+							</aixm:usage>
+						</aixm:AirportHeliportAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id57434">
+							<aixm:propertyName>certificationExpirationDate</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id57435">
+									<aixm:note lang="eng">Valid until: Unlimited</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id57436">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id57437">
+									<aixm:note lang="eng">All calls to ATC will be recorded.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id57438">
+							<aixm:propertyName>altimeterCheckLocation</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id57439">
+									<aixm:note lang="eng">Terminal Apron 325 FT  Elmdon GA Aprons 325 FT</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id57440">
+							<aixm:propertyName>windDirectionIndicator</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id57441">
+									<aixm:note lang="eng">Runway 33: 522652.90N 0014437.40W; Runway 15: 522736.3N 0014525.4W.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id57442">
+							<aixm:propertyName>airportLocation</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id57443">
+									<aixm:note lang="eng">5.5 NM ESE of Birmingham.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id57444">
+							<aixm:propertyName>secondaryPowerSupply</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id57445">
+									<aixm:note lang="eng">Yes/1 second.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:AirportHeliportTimeSlice>
+			</aixm:timeSlice>
+		</aixm:AirportHeliport>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:Runway gml:id="id266952">
+			<gml:identifier codeSpace="urn:uuid:">9be52e17-523c-4427-92b4-9d0b2cd2df47</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RunwayTimeSlice gml:id="id266091">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2023-11-06T10:52:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2023-11-06T10:52:56</gml:beginPosition>
+							<gml:endPosition>2023-11-06T10:52:56</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>FATO</aixm:designator>
+					<aixm:type>FATO</aixm:type>
+					<aixm:nominalLength xsi:nil="true"/>
+					<aixm:lengthAccuracy xsi:nil="true"/>
+					<aixm:nominalWidth xsi:nil="true"/>
+					<aixm:widthAccuracy xsi:nil="true"/>
+					<aixm:widthShoulder xsi:nil="true"/>
+					<aixm:lengthStrip xsi:nil="true"/>
+					<aixm:widthStrip xsi:nil="true"/>
+					<aixm:lengthOffset xsi:nil="true"/>
+					<aixm:widthOffset xsi:nil="true"/>
+					<aixm:abandoned xsi:nil="true"/>
+					<aixm:surfaceProperties xsi:nil="true"/>
+					<aixm:associatedAirportHeliport xlink:type="simple"
+							xlink:href="urn:uuid:7140c54c-595c-457e-921f-9b490c5df33d"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="id266094">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id266095">
+									<aixm:note lang="eng">Helicopters to approach using active runway and land as instructed by ATC.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RunwayTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Runway>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:Runway gml:id="id267106">
+			<gml:identifier codeSpace="urn:uuid:">8fcf628e-16ca-46c5-99c6-02967905ffad</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RunwayTimeSlice gml:id="id266084">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000004">
+							<gml:timePosition>2023-11-06T10:52:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000005">
+							<gml:beginPosition>2023-11-06T10:52:56</gml:beginPosition>
+							<gml:endPosition>2023-11-06T10:52:56</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>15/33</aixm:designator>
+					<aixm:type>RWY</aixm:type>
+					<aixm:nominalLength uom="M">3052</aixm:nominalLength>
+					<aixm:lengthAccuracy xsi:nil="true"/>
+					<aixm:nominalWidth uom="M">45</aixm:nominalWidth>
+					<aixm:widthAccuracy xsi:nil="true"/>
+					<aixm:widthShoulder xsi:nil="true"/>
+					<aixm:lengthStrip xsi:nil="true"/>
+					<aixm:widthStrip xsi:nil="true"/>
+					<aixm:lengthOffset xsi:nil="true"/>
+					<aixm:widthOffset xsi:nil="true"/>
+					<aixm:abandoned xsi:nil="true"/>
+					<aixm:surfaceProperties>
+						<aixm:SurfaceCharacteristics gml:id="id266089">
+							<aixm:composition>ASPH</aixm:composition>
+							<aixm:preparation>GROOVED</aixm:preparation>
+							<aixm:surfaceCondition xsi:nil="true"/>
+							<aixm:classPCN>65</aixm:classPCN>
+							<aixm:pavementTypePCN>FLEXIBLE</aixm:pavementTypePCN>
+							<aixm:pavementSubgradePCN>B</aixm:pavementSubgradePCN>
+							<aixm:maxTyrePressurePCN>W</aixm:maxTyrePressurePCN>
+							<aixm:evaluationMethodPCN>TECH</aixm:evaluationMethodPCN>
+							<aixm:classLCN xsi:nil="true"/>
+							<aixm:weightSIWL xsi:nil="true"/>
+							<aixm:tyrePressureSIWL xsi:nil="true"/>
+							<aixm:weightAUW xsi:nil="true"/>
+							<aixm:annotation xsi:nil="true"/>
+						</aixm:SurfaceCharacteristics>
+					</aixm:surfaceProperties>
+					<aixm:associatedAirportHeliport xlink:type="simple"
+							xlink:href="urn:uuid:7140c54c-595c-457e-921f-9b490c5df33d"/>
+					<aixm:annotation>
+						<aixm:Note gml:id="id266087">
+							<aixm:propertyName>txtMarking</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id266088">
+									<aixm:note lang="eng">Designation, runway edge, threshold, centre-line, TDZ.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RunwayTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Runway>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RunwayDirection gml:id="id287713">
+			<gml:identifier codeSpace="urn:uuid:">73fd16b6-e488-4adb-b09a-3fe5e8090fd5</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RunwayDirectionTimeSlice gml:id="id286458">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000006">
+							<gml:timePosition>2023-11-06T10:52:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000007">
+							<gml:beginPosition>2023-11-06T10:52:56</gml:beginPosition>
+							<gml:endPosition>2023-11-06T10:52:56</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>33</aixm:designator>
+					<aixm:trueBearing>325.82</aixm:trueBearing>
+					<aixm:trueBearingAccuracy xsi:nil="true"/>
+					<aixm:magneticBearing xsi:nil="true"/>
+					<aixm:patternVFR xsi:nil="true"/>
+					<aixm:slopeTDZ xsi:nil="true"/>
+					<aixm:elevationTDZ xsi:nil="true"/>
+					<aixm:elevationTDZAccuracy xsi:nil="true"/>
+					<aixm:approachMarkingType xsi:nil="true"/>
+					<aixm:approachMarkingCondition xsi:nil="true"/>
+					<aixm:classLightingJAR xsi:nil="true"/>
+					<aixm:precisionApproachGuidance xsi:nil="true"/>
+					<aixm:usedRunway xlink:type="simple"
+							xlink:href="urn:uuid:8fcf628e-16ca-46c5-99c6-02967905ffad"/>
+					<aixm:startingElement/>
+					<aixm:annotation>
+						<aixm:Note gml:id="id286461">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id286462">
+									<aixm:note lang="eng">370 M</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RunwayDirectionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayDirection>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RunwayDirection gml:id="id287714">
+			<gml:identifier codeSpace="urn:uuid:">2047c11b-32b8-41d8-a3a2-b4de0d223efd</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RunwayDirectionTimeSlice gml:id="id285952">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000008">
+							<gml:timePosition>2023-11-06T10:52:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000009">
+							<gml:beginPosition>2023-11-06T10:52:56</gml:beginPosition>
+							<gml:endPosition>2023-11-06T10:52:56</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>15</aixm:designator>
+					<aixm:trueBearing>145.81</aixm:trueBearing>
+					<aixm:trueBearingAccuracy xsi:nil="true"/>
+					<aixm:magneticBearing xsi:nil="true"/>
+					<aixm:patternVFR xsi:nil="true"/>
+					<aixm:slopeTDZ xsi:nil="true"/>
+					<aixm:elevationTDZ xsi:nil="true"/>
+					<aixm:elevationTDZAccuracy xsi:nil="true"/>
+					<aixm:approachMarkingType xsi:nil="true"/>
+					<aixm:approachMarkingCondition xsi:nil="true"/>
+					<aixm:classLightingJAR xsi:nil="true"/>
+					<aixm:precisionApproachGuidance xsi:nil="true"/>
+					<aixm:usedRunway xlink:type="simple"
+							xlink:href="urn:uuid:8fcf628e-16ca-46c5-99c6-02967905ffad"/>
+					<aixm:startingElement/>
+					<aixm:annotation>
+						<aixm:Note gml:id="id285955">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id285956">
+									<aixm:note lang="eng">406 M</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RunwayDirectionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayDirection>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RunwayCentrelinePoint gml:id="id284130">
+			<gml:identifier codeSpace="urn:uuid:">03d7510b-6925-49dc-b44b-1703d5869d3b</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RunwayCentrelinePointTimeSlice gml:id="id270829">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000010">
+							<gml:timePosition>2023-11-06T10:52:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000011">
+							<gml:beginPosition>2023-11-06T10:52:56</gml:beginPosition>
+							<gml:endPosition>2023-11-06T10:52:56</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:role>THR</aixm:role>
+					<aixm:designator xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id270834"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">52.4462722 -1.7396</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true"/>
+							<aixm:elevation uom="FT">328</aixm:elevation>
+							<aixm:geoidUndulation uom="FT">162</aixm:geoidUndulation>
+							<aixm:verticalDatum xsi:nil="true"/>
+							<aixm:verticalAccuracy xsi:nil="true"/>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:type="simple"
+							xlink:href="urn:uuid:73fd16b6-e488-4adb-b09a-3fe5e8090fd5"/>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id270832">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id270833">
+									<aixm:note lang="eng">RWY 33
+
+Runway 15/33 has shoulders 7.5 M each side of the runway giving a total paved width of 60 M.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RunwayCentrelinePoint gml:id="id284132">
+			<gml:identifier codeSpace="urn:uuid:">674998e5-36f9-42f4-ae26-09f5c54c34c5</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RunwayCentrelinePointTimeSlice gml:id="id270822">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000012">
+							<gml:timePosition>2023-11-06T10:52:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>0</aixm:sequenceNumber>
+					<aixm:correctionNumber>0</aixm:correctionNumber>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000013">
+							<gml:beginPosition>2023-11-06T10:52:56</gml:beginPosition>
+							<gml:endPosition>2023-11-06T10:52:56</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:role>THR</aixm:role>
+					<aixm:designator xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id270827"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">52.4634778 -1.7587306</gml:pos>
+							<aixm:horizontalAccuracy xsi:nil="true"/>
+							<aixm:elevation uom="FT">303</aixm:elevation>
+							<aixm:geoidUndulation uom="FT">162</aixm:geoidUndulation>
+							<aixm:verticalDatum xsi:nil="true"/>
+							<aixm:verticalAccuracy xsi:nil="true"/>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:onRunway xlink:type="simple"
+							xlink:href="urn:uuid:2047c11b-32b8-41d8-a3a2-b4de0d223efd"/>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id270825">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id270826">
+									<aixm:note lang="eng">RWY 15
+
+Runway 15/33 has shoulders 7.5 M each side of the runway giving a total paved width of 60 M.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RunwayCentrelinePointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RunwayCentrelinePoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:AirportHeliport gml:id="id000014">
+			<gml:identifier codeSpace="urn:uuid:">ae46150e-d8c5-4f6b-9500-c8fe3e2d3429</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirportHeliportTimeSlice gml:id="id000015">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000000">
+							<gml:timePosition>2024-01-10T16:08:14</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000001">
+							<gml:beginPosition>2024-01-10T16:08:14</gml:beginPosition>
+							<gml:endPosition>2024-01-10T16:08:14</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>MBRA</aixm:designator>
+					<aixm:name>MBR AIRPORT</aixm:name>
+					<aixm:locationIndicatorICAO>MBRA</aixm:locationIndicatorICAO>
+					<aixm:type>AH</aixm:type>
+					<aixm:fieldElevation uom="FT">20</aixm:fieldElevation>
+					<aixm:ARP>
+						<aixm:ElevatedPoint gml:id="id000018">
+							<gml:pos>51.385586872 1.42824588</gml:pos>
+							<aixm:elevation uom="FT">20</aixm:elevation>
+						</aixm:ElevatedPoint>
+					</aixm:ARP>
+				</aixm:AirportHeliportTimeSlice>
+			</aixm:timeSlice>
+		</aixm:AirportHeliport>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:Airspace gml:id="id000002">
+			<gml:identifier codeSpace="urn:uuid:">27da6724-1186-4e2b-81be-91a2d9ccc84e</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="id000003">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000004">
+							<gml:timePosition>2024-01-10T15:58:02</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000005">
+							<gml:beginPosition>2024-01-10T15:58:02</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>SECTOR</aixm:type>
+					<aixm:designator>TC CAPITAL</aixm:designator>
+					<aixm:name>SWANWICK TC CAPITAL</aixm:name>
+					<aixm:designatorICAO>NO</aixm:designatorICAO>
+					<aixm:upperLowerSeparation xsi:nil="true"/>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000006">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000007">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">155</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000008">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:9bcf1f19-ed0f-47c0-b04d-1557b0fe839f"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000009">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000010">
+									<aixm:upperLimit uom="FL">175</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">155</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000011">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:08304f86-0c1f-4731-9046-b2e553d98a9d"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000012">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000013">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">175</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000014">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:4e2412fb-a0f3-4e2f-95bf-b64a45c39930"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000015">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000016">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">175</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000017">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:f368bb21-ed3b-45f2-bad1-24bb1080f008"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000018">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000019">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">155</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000020">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:28b7ac9f-bac8-461f-aeee-117e6debf2b1"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000021">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000022">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">115</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000023">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:d07fcc71-6c28-46fb-b257-4a2ec612cd7f"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000024">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000025">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">155</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000026">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:7c880c4a-6c73-45a3-ae7d-55129524a5be"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000027">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000028">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">175</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000029">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:331d91ca-0d55-41d8-94d3-7805846e82bf"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000030">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000031">
+									<aixm:upperLimit uom="FL">215</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">165</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000032">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:218cf0d1-a692-4d9c-afb9-809b130a8161"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000033">
+							<aixm:operation>UNION</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000034">
+									<aixm:upperLimit uom="FL">195</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">175</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000035">
+											<aixm:dependency>FULL_GEOMETRY</aixm:dependency>
+											<aixm:theAirspace xlink:href="urn:uuid:f0ab0805-e3ca-451e-aca2-f26e54a0899b"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000036">
+							<aixm:operation/>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000037">
+									<aixm:upperLimit uom="FL">105</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">75</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:contributorAirspace>
+										<aixm:AirspaceVolumeDependency gml:id="id000038">
+											<aixm:dependency/>
+											<aixm:theAirspace xlink:href="urn:uuid:0028e3ca-cbe4-49ea-ace7-2c1f1ad983bf"/>
+										</aixm:AirspaceVolumeDependency>
+									</aixm:contributorAirspace>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+</message:AIXMBasicMessage>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>BaselineSwitching</projectName>
+    <aixmBaseline>UK_AIRAC_02_2021.xml</aixmBaseline>
+    <description>Testing Baseline Switching Bug</description>
+    <targetDate>Thu May 9 2024</targetDate>
+</adtProjectConfig>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>804152</userName>
+        <creationDate>18/04/2019 13:52:45</creationDate>
+        <description>Test comment 1</description>
+        <featureUUID>b7f57b66-58a2-4798-b979-2b309cc829f0</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T98A</featureName>
+    </action>
+    <action>
+        <userName>804152</userName>
+        <creationDate>18/04/2019 13:52:52</creationDate>
+        <description>Test  comment 2</description>
+        <featureUUID>39bc8db1-be8f-4a09-8008-dfea165c917f</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T99A</featureName>
+    </action>
+</actionLogs>

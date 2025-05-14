@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>804152</userName>
+        <creationDate>02/07/2019 10:00:35</creationDate>
+        <description>Short comment</description>
+        <featureUUID>614c51e4-3cbe-454c-8b8b-ba2ef835279a</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T02A</featureName>
+    </action>
+    <action>
+        <userName>804152</userName>
+        <creationDate>02/07/2019 10:00:47</creationDate>
+        <description>Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment Long comment</description>
+        <featureUUID>2214d98f-81bd-4dce-96f6-fa80d4025f2d</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T01A</featureName>
+    </action>
+</actionLogs>

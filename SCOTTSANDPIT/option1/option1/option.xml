@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>SCOTTSANDPIT</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>Scotts Designs</description>
+    <optionName>Option 1.1</optionName>
+    <lastSavedDateTime>08/11/2023 14:49:38</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <creator>800601</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

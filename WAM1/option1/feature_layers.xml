@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<featureLayer>
+    <layer>
+        <id>5adaec03-dcf6-41da-8cb5-1d194289fd16</id>
+        <name>Downloads\cpt4b.xml</name>
+        <features>
+            <feature>
+                <id>31ab2aa0-60bc-4a5c-9552-522c00e9c772</id>
+                <type>SID</type>
+            </feature>
+            <feature>
+                <id>63a826af-a972-4176-bc25-480b5719f020</id>
+                <type>Fix</type>
+            </feature>
+            <feature>
+                <id>8a75b115-ce8e-42a0-bdeb-3645bdb0b414</id>
+                <type>Fix</type>
+            </feature>
+            <feature>
+                <id>d1ceb7ae-e389-4b43-b54a-22d356aed75b</id>
+                <type>Fix</type>
+            </feature>
+            <feature>
+                <id>d5d12e0b-074e-45cf-a3bf-f2b9fcd75268</id>
+                <type>Fix</type>
+            </feature>
+            <feature>
+                <id>ed42f209-a348-464d-aff5-1cfaab1f03e8</id>
+                <type>Fix</type>
+            </feature>
+        </features>
+    </layer>
+</featureLayer>

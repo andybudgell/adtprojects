@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id200027">
+	<message:hasMember>
+		<aixm:HoldingPattern gml:id="id200001">
+			<gml:identifier codeSpace="urn:uuid:">6555cd9c-8d38-4073-be20-9885c0a3f4e7</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:HoldingPatternTimeSlice gml:id="id200002">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200003">
+							<gml:timePosition>2019-03-26T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200004">
+							<gml:beginPosition>2019-03-26T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>TER</aixm:type>
+					<aixm:inboundCourse>45</aixm:inboundCourse>
+					<aixm:turnDirection>LEFT</aixm:turnDirection>
+					<aixm:upperLimit uom="FL">140</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">140</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:speedLimit uom="KT">200</aixm:speedLimit>
+					<aixm:nonStandardHolding>YES</aixm:nonStandardHolding>
+					<aixm:outboundLegSpan_endTime>
+						<aixm:HoldingPatternDuration gml:id="id200025">
+							<aixm:duration uom="SEC">200</aixm:duration>
+						</aixm:HoldingPatternDuration>
+					</aixm:outboundLegSpan_endTime>
+					<aixm:holdingPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200026">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:b24fb2f0-8b9b-4717-bbef-8b290f3f5042"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:holdingPoint>
+				</aixm:HoldingPatternTimeSlice>
+			</aixm:timeSlice>
+		</aixm:HoldingPattern>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200011">
+			<gml:identifier codeSpace="urn:uuid:">b5a9608b-1087-4f90-ad1d-befbcb324c8f</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200012">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200013">
+							<gml:timePosition>2019-03-26T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200014">
+							<gml:beginPosition>2019-03-26T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>AD1DBEFBCB324C8F</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200015">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200016">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:d7a0c778-83c9-4c84-b678-b837def71e47"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200017">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>DEP</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200018">
+									<aixm:index>2</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:d7a0c778-83c9-4c84-b678-b837def71e47"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200019">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>ARR</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200020">
+									<aixm:index>3</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="urn:uuid:b24fb2f0-8b9b-4717-bbef-8b290f3f5042"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200021">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200022">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200023">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200024">
+											<aixm:upperLevel uom="FL">200</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">200</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="urn:uuid:b24fb2f0-8b9b-4717-bbef-8b290f3f5042"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+</message:AIXMBasicMessage>

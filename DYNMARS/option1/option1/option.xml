@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>DYNMARS</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>Single Point Merges</description>
+    <optionName>Option 1.1</optionName>
+    <lastSavedDateTime>18/09/2024 09:27:41</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>4</activeFlightSampleId>
+    <creator>802728</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

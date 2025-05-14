@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>Optimisation_test</projectName>
+    <aixmBaseline>UK_AIRAC_12_2024.xml</aixmBaseline>
+    <description>Fuel burn calcs</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>16/04/2025 16:05:29</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <creator>803848</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>true</userPermissions>
+    <userPermissionsData>
+        <userPermissionsUsername>803848</userPermissionsUsername>
+        <userPermissionsSecurityLevel>r]XtZQSF@</userPermissionsSecurityLevel>
+    </userPermissionsData>
+    <userPermissionsData>
+        <userPermissionsUsername>Andy Mitch</userPermissionsUsername>
+        <userPermissionsSecurityLevel>r]XtZQSF@</userPermissionsSecurityLevel>
+    </userPermissionsData>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

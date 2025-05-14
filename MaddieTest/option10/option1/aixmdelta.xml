@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id000000">
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">626fe86d-666d-4aaf-af31-2c4c927d3f1a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2024-05-09T08:45:27</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2024-05-09T08:45:27</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>6666D</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000004"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>53.821582537 -2.414809508</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:RouteSegment gml:id="id349730">
+			<gml:identifier codeSpace="urn:uuid:">85a40528-a313-456e-9c53-095369222b41</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000239">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000240">
+							<gml:timePosition>2024-05-09T08:45:27</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000241">
+							<gml:beginPosition>2024-05-09T08:45:27</gml:beginPosition>
+							<gml:endPosition>2024-05-09T08:45:27</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:level xsi:nil="true"/>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">125</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:minimumObstacleClearanceAltitude xsi:nil="true"/>
+					<aixm:pathType xsi:nil="true"/>
+					<aixm:trueTrack>43.0883</aixm:trueTrack>
+					<aixm:magneticTrack>43.6051</aixm:magneticTrack>
+					<aixm:reverseTrueTrack>223.3587</aixm:reverseTrueTrack>
+					<aixm:reverseMagneticTrack>223.7753</aixm:reverseMagneticTrack>
+					<aixm:length uom="NM">17.2052</aixm:length>
+					<aixm:widthLeft xsi:nil="true"/>
+					<aixm:widthRight xsi:nil="true"/>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:signalGap xsi:nil="true"/>
+					<aixm:minimumEnrouteAltitude xsi:nil="true"/>
+					<aixm:minimumCrossingAtEnd xsi:nil="true"/>
+					<aixm:minimumCrossingAtEndReference xsi:nil="true"/>
+					<aixm:maximumCrossingAtEnd xsi:nil="true"/>
+					<aixm:maximumCrossingAtEndReference xsi:nil="true"/>
+					<aixm:navigationType>RNAV</aixm:navigationType>
+					<aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+					<aixm:designatorSuffix xsi:nil="true"/>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id321765">
+							<aixm:reportingATC>ON_REQUEST</aixm:reportingATC>
+							<aixm:flyOver xsi:nil="true"/>
+							<aixm:waypoint xsi:nil="true"/>
+							<aixm:radarGuidance xsi:nil="true"/>
+							<aixm:pointChoice_fixDesignatedPoint xlink:type="simple"
+									xlink:href="urn:uuid:ddb7de9c-5568-48e8-b459-c05b3e9b6547"/>
+							<aixm:extendedServiceVolume/>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:roleFreeFlight xsi:nil="true"/>
+							<aixm:roleRVSM xsi:nil="true"/>
+							<aixm:turnRadius xsi:nil="true"/>
+							<aixm:roleMilitaryTraining xsi:nil="true"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:type="simple"
+							xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:curveExtent>
+						<aixm:Curve gml:id="id321752">
+							<gml:segments>
+								<gml:GeodesicString interpolation="geodesic">
+									<gml:pointProperty xlink:type="simple">
+										<aixm:Point gml:id="id321753"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">54.0161111 -2.2896556</gml:pos>
+										</aixm:Point>
+									</gml:pointProperty>
+									<gml:pointProperty xlink:type="simple">
+										<aixm:Point gml:id="id321754"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">54.2247139 -1.9559167</gml:pos>
+										</aixm:Point>
+									</gml:pointProperty>
+								</gml:GeodesicString>
+							</gml:segments>
+						</aixm:Curve>
+					</aixm:curveExtent>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint xsi:type="aixm:EnRouteSegmentPointType"
+								gml:id="id321766">
+							<aixm:reportingATC>ON_REQUEST</aixm:reportingATC>
+							<aixm:flyOver xsi:nil="true"/>
+							<aixm:waypoint xsi:nil="true"/>
+							<aixm:radarGuidance xsi:nil="true"/>
+							<aixm:pointChoice_fixDesignatedPoint xlink:type="simple"
+									xlink:href="urn:uuid:36e3f702-529b-4d3f-876a-7e90c6be58f7"/>
+							<aixm:extendedServiceVolume/>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:roleFreeFlight xsi:nil="true"/>
+							<aixm:roleRVSM xsi:nil="true"/>
+							<aixm:turnRadius xsi:nil="true"/>
+							<aixm:roleMilitaryTraining xsi:nil="true"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id342592">
+							<aixm:annotation>
+								<aixm:Note gml:id="id342593">
+									<aixm:purpose>OTHER:AIXM45_MAPPING</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="id342594">
+											<aixm:note lang="eng">noSeq:10</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
+							<aixm:direction>BACKWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id345375">
+									<aixm:upperLimit uom="FL">230</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">190</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:type="simple"
+											xlink:href="urn:uuid:11adc245-1bd2-4949-aa08-3ed996f688c7"/>
+									<aixm:annotation xsi:nil="true"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321755">
+							<aixm:purpose>OTHER:AIXM45_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321756">
+									<aixm:note lang="eng">Lower limit override: 
+Units of measurement [lower limit override]: 
+Reference for [lower limit override]: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321757">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321758">
+									<aixm:note lang="eng">FL 245/FL 195 Class C,
+FL 195/FL 125 Class A.
+
+Scottish ACC
+Freq: 118.780 (Above FL 195);
+Freq: 135.715 (FL 195 and below).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321759">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321760">
+									<aixm:note lang="eng">Eastbound route only btn GASKO and RIBEL.
+Intersection with N601.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321761">
+							<aixm:propertyName>minimumEnrouteAltitude</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321762">
+									<aixm:note lang="eng">Reference for minimum limit: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321763">
+							<aixm:propertyName>end</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321764">
+									<aixm:note lang="eng">Extremity of P16.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+</message:AIXMBasicMessage>

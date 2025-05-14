@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>MaddieTest</projectName>
+    <aixmBaseline>UK_AIRAC_03_2023.xml</aixmBaseline>
+    <description>P16</description>
+    <optionName>Option 6.2</optionName>
+    <lastSavedDateTime></lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <creator>805846</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

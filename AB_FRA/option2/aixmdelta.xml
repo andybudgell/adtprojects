@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:nats="http://www.aixm.aero/schema/5.1/extensions/NATS/eSDO"
+		xmlns:avitech="http://www.aixm.aero/schema/5.1/extensions/Avitech/eSDO"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id000007">
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">66059c68-61c3-4e91-8c07-251dcb1062fb</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000000">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000001">
+							<gml:timePosition>2025-04-23T14:36:43</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000002">
+							<gml:beginPosition>2025-04-23T14:36:43</gml:beginPosition>
+							<gml:endPosition>2025-04-23T14:36:43</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>INTER</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>CALIN_I</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000008"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.371499536 -1.046301324</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>origin</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>Declared</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000006">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000007">
+									<aixm:note>Intermediate only</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>I</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">4ef01dc0-665f-4665-9d8c-c4e1561b74fb</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>ARRIV</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST4</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.134282444 0.212025931</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>TEST ARRIVAL ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>A</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000007">
+			<gml:identifier codeSpace="urn:uuid:">57f4bd81-f635-433e-b24c-338d3301daca</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000008">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000009">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000010">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IEE</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST7</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000013"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>0.0 0.0</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000011">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000012">
+									<aixm:note>TEST IEE</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>IEX</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000014">
+			<gml:identifier codeSpace="urn:uuid:">6426491d-2e4d-4aff-af27-0937dfbcde67</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000015">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000016">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000017">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>ENTRY</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST2</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000020"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.969462026 0.277989773</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000018">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000019">
+									<aixm:note>TEST ENTRY ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>E</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000021">
+			<gml:identifier codeSpace="urn:uuid:">8bf6c703-ef71-4d4e-8b35-b6aa2fbb9b5f</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000022">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000023">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000024">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IE</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST6</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000027"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.505212154 0.209810595</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000025">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000026">
+									<aixm:note>TEST IE </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>IE</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000028">
+			<gml:identifier codeSpace="urn:uuid:">961273c0-5254-488d-9722-2a51f297c26c</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000029">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000030">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000031">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>INTER</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST1</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000034"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.632989118 -0.388618186</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000032">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000033">
+									<aixm:note>TEST INTERMEDIATE ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>I</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000035">
+			<gml:identifier codeSpace="urn:uuid:">a47e271d-559c-4a24-a024-3f14b3d302a0</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000036">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000037">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000038">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IEEA</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST8</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000041"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.76068396 0.218504187</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000039">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000040">
+									<aixm:note>TEST IEEA</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>EXIA</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000042">
+			<gml:identifier codeSpace="urn:uuid:">cfd2b6cb-8498-4814-be70-b09a1b04a430</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000043">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000044">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000045">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IEEAD</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST9</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000048"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.256794231 -0.316907673</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000046">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000047">
+									<aixm:note>TEST IEEAD</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>EXIAD</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000049">
+			<gml:identifier codeSpace="urn:uuid:">eda8cb6f-c3cb-4b12-9568-cbc76d31b8cb</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000050">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000051">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000052">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>EXIT</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST3</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000055"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.949925383 -0.359666743</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000053">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000054">
+									<aixm:note>TEST EXIT ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>X</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000056">
+			<gml:identifier codeSpace="urn:uuid:">f5ab74f5-5582-4731-b544-3af648224c8d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000057">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000058">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000059">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>DEP</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>DEPARTURE</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000062"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.160721396 0.931066502</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000060">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000061">
+									<aixm:note>TEST DEPARTURE ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000063">
+			<gml:identifier codeSpace="urn:uuid:">f7a07d2b-ace3-4fa2-bcb2-6c4a0f67917b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000064">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000065">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000066">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>ARRIV</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST4</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000069"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>0.0 0.0</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000067">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000068">
+									<aixm:note>TEST ARRIVAL ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>A</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000070">
+			<gml:identifier codeSpace="urn:uuid:">ff328dd4-edb0-42fd-b0d0-ee3d9393a619</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000071">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000072">
+							<gml:timePosition>2025-04-24T07:50:37</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000073">
+							<gml:beginPosition>2025-04-24T07:50:37</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IEE</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST7</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000076"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.569452695 -0.317468452</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000074">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000075">
+									<aixm:note>TEST IEE</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>IEX</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">b4ff244c-c302-4acf-9217-b2d02f5957dc</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T08:14:48</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T08:14:48</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>TEST1</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST1</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.09157888 -1.384074301</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>TEST ARRIVAL ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>A</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000007">
+			<gml:identifier codeSpace="urn:uuid:">f1a592d1-755a-45ab-9b80-0f50e009cf7c</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000008">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000009">
+							<gml:timePosition>2025-04-24T08:14:48</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000010">
+							<gml:beginPosition>2025-04-24T08:14:48</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>TEST1</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST1</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000013"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.11407352 -0.700544797</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000011">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000012">
+									<aixm:note>TEST ARRIVAL ONLY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>A</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">87e76529-9127-4ef7-bf73-60e8a03bab23</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T09:12:06</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T09:12:06</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IEEA</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>IEEA</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.252307254 0.186511283</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>TEST IEEAD</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>EXIA</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">4fbfe497-d458-403a-a906-a727943e1d74</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T09:13:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T09:13:45</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IAD</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>IAD</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.501963846 1.114348974</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>TEST 
+IAD</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>IAD</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">14f36350-cead-4c40-9826-25dc81ed6bf2</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T12:33:09</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T12:33:09</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>TESTT</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST9</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.268885417 1.479081335</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>TEST 
+IAD</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>IAD</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000007">
+			<gml:identifier codeSpace="urn:uuid:">db464b48-8b70-44a2-add3-a120585b557b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000008">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000009">
+							<gml:timePosition>2025-04-24T12:33:09</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000010">
+							<gml:beginPosition>2025-04-24T12:33:09</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IED</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>IED</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000011"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>0.0 0.0</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:extension>
+						<nats:DesignatedPointExtension xsi:type="nats:DesignatedPointExtensionType"
+								gml:id="">
+							<nats:fraRelevance>IED</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000012">
+			<gml:identifier codeSpace="urn:uuid:">f1cb21dd-a91d-44aa-ba3a-f5e097d9269e</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000013">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000014">
+							<gml:timePosition>2025-04-24T12:33:09</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000015">
+							<gml:beginPosition>2025-04-24T12:33:09</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IED</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>IED</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000018"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.62361433 0.647191678</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000016">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000017">
+									<aixm:note>INTERMEDIATE ENTRY DEPARTURE</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>IED</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">e198422a-312b-46e2-b50f-9a800b598159</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T12:34:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T12:34:56</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>IEXA</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>IEXA</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.351642034 1.131497383</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>INTERMEDIATE ENTRY EXIT ARRIVAL</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>EXIA</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">c7bef3a9-87c0-4cde-a360-e774cc1fa6b2</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T12:41:54</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T12:41:54</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>TEST</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>52.199644175 0.68547417</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>test</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>EXIA</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">9517738a-6a22-46c9-89ac-9c159d9d6c84</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-24T14:11:25</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-24T14:11:25</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>WAYX</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>WAYPOINT1</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.24751632 -0.755574874</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>EXIT DEPARTURE</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>XD</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000007">
+			<gml:identifier codeSpace="urn:uuid:">ec6b6bfc-6d6d-4d1d-92b0-9f96ba3c8741</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000008">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000009">
+							<gml:timePosition>2025-04-24T14:11:25</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000010">
+							<gml:beginPosition>2025-04-24T14:11:25</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>TEST</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>TEST</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000011"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.251836281 0.881329375</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:extension>
+						<nats:DesignatedPointExtension xsi:type="nats:DesignatedPointExtensionType"
+								gml:id="">
+							<nats:fraRelevance>XA</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:Navaid gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">4b89bbdd-8b74-448c-bec3-88d7a407b802</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:NavaidTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-28T08:02:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-28T08:02:56</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>VOR</aixm:type>
+					<aixm:designator>NAVA</aixm:designator>
+					<aixm:name>NAV1</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000008"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.529722757 -1.346152936</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>origin</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>Declared</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000006">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000007">
+									<aixm:note>TEST NAVAID</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:NavaidExtension gml:id="">
+							<nats:fraRelevance>IE</nats:fraRelevance>
+						</nats:NavaidExtension>
+					</aixm:extension>
+				</aixm:NavaidTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Navaid>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">b6d4ca48-b31b-4692-9ca5-b37e6092dfdd</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2025-04-28T14:28:50</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2025-04-28T14:28:50</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>E</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name>E</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000006"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>50.885370263 0.342048706</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+					<aixm:annotation>
+						<aixm:Note xsi:type="aixm:NoteType"
+								gml:id="id000004">
+							<aixm:propertyName>fraRelevance</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000005">
+									<aixm:note>ENTRY</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:extension>
+						<nats:DesignatedPointExtension gml:id="">
+							<nats:fraRelevance>E</nats:fraRelevance>
+						</nats:DesignatedPointExtension>
+					</aixm:extension>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+</message:AIXMBasicMessage>

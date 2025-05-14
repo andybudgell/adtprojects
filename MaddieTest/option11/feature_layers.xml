@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<featureLayer>
+    <layer>
+        <id>74a859f1-cd81-412a-8961-edcf8628dec4</id>
+        <name>Desktop\option 11 EGKK.xml</name>
+        <class></class>
+        <features>
+            <feature>
+                <id>afe7275f-b219-4122-bc19-9794830010fa</id>
+                <type>Airport</type>
+            </feature>
+        </features>
+    </layer>
+</featureLayer>

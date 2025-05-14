@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<featureLayer>
+    <layer>
+        <id>91cebd26-27fa-4732-92ad-9a67c8957fbc</id>
+        <name>AIXM\EGWU Data.xml</name>
+        <class></class>
+        <features>
+            <feature>
+                <id>0a4d79cb-c6df-471f-a092-58886d186bd2</id>
+                <type>Airport</type>
+            </feature>
+        </features>
+    </layer>
+</featureLayer>

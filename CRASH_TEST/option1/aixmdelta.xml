@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id200044">
+	<message:hasMember>
+		<aixm:StandardInstrumentArrival gml:id="id200001">
+			<gml:identifier codeSpace="urn:uuid:">ea31a9da-257e-4bfa-aed8-5f0ff89c2541</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:StandardInstrumentArrivalTimeSlice gml:id="id200005">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200006">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200007">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator nilReason="other"
+							xsi:nil="true"/>
+				</aixm:StandardInstrumentArrivalTimeSlice>
+			</aixm:timeSlice>
+		</aixm:StandardInstrumentArrival>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200008">
+			<gml:identifier codeSpace="urn:uuid:">b244e03c-5b6e-43a2-87d7-fc7d5bc37d7e</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200009">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200010">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200011">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200012">
+			<gml:identifier codeSpace="urn:uuid:">caa22972-b28e-46f0-8d3a-8fa8adb015e2</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200013">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200014">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200015">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200016">
+			<gml:identifier codeSpace="urn:uuid:">e1514730-5381-4967-a043-0486e7e8da77</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200017">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200018">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200019">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200020">
+			<gml:identifier codeSpace="urn:uuid:">f3c90595-fa35-491c-a7b6-39ee397b011b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200021">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200022">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200023">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200024">
+			<gml:identifier codeSpace="urn:uuid:">7195d5ee-8850-4adc-abf5-62c9c5a3cc28</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200025">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200026">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200027">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200028">
+			<gml:identifier codeSpace="urn:uuid:">fbffbcd8-6392-4dc6-ba5f-b4d5c5c247ef</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200029">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200030">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200031">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200032">
+			<gml:identifier codeSpace="urn:uuid:">f580e480-e3ad-43a4-9577-d0db777fe186</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200033">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200034">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200035">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200036">
+			<gml:identifier codeSpace="urn:uuid:">e6d168a3-89f4-4b18-9e47-b5efeb9bf4de</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200037">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200038">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200039">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:ArrivalLeg gml:id="id200040">
+			<gml:identifier codeSpace="urn:uuid:">6c6e6791-8c6a-457d-86a0-3e677faa5faa</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:ArrivalLegTimeSlice gml:id="id200041">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200042">
+							<gml:timePosition>2019-03-22T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200043">
+							<gml:beginPosition>2019-03-22T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-03-22T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC xsi:nil="true"/>
+					<aixm:upperLimitAltitude nilReason="other"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimitAltitude xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:startPoint xsi:nil="true"/>
+					<aixm:endPoint xsi:nil="true"/>
+					<aixm:arrival xlink:href="urn:uuid:ea31a9da-257e-4bfa-aed8-5f0ff89c2541"/>
+				</aixm:ArrivalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:ArrivalLeg>
+	</message:hasMember>
+</message:AIXMBasicMessage>

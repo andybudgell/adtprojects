@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>800776</userName>
+        <creationDate>01/10/2019 11:27:00</creationDate>
+        <description>Moved to ensure 5NM offset from the other SID.</description>
+        <featureUUID>e72f9be5-9b4f-4c46-ab3c-5398eae81685</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T05A</featureName>
+    </action>
+</actionLogs>

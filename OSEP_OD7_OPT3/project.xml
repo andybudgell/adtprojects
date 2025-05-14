@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>OSEP_OD7_OPT3</projectName>
+    <aixmBaseline>UK_AIRAC_03_2023.xml</aixmBaseline>
+    <description>ScTMA Deps to EGLC</description>
+    <targetDate>Thu Nov 30 2023</targetDate>
+</adtProjectConfig>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>simon</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>si</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime></lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <creator>802433</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

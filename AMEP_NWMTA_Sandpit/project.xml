@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>AMEP_NWMTA_Sandpit</projectName>
+    <aixmBaseline>UK_AIRAC_03_2023.xml</aixmBaseline>
+    <description>F&amp;O NWMTA subdivisons</description>
+    <targetDate>Thu Dec 5 2024</targetDate>
+</adtProjectConfig>

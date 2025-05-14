@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>804152</userName>
+        <creationDate>24/07/2019 11:10:00</creationDate>
+        <description>Test</description>
+        <featureUUID>5f25088f-9008-4b8c-a84e-8165e6a40472</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T06A</featureName>
+    </action>
+    <action>
+        <userName>804152</userName>
+        <creationDate>24/07/2019 11:45:44</creationDate>
+        <description>|Thsi awosd awidjaio wdj akowdjio djai wdji awdko awdoj awid aiowed aiowdh ioawd aiowdh awhdioahd80 awe</description>
+        <featureUUID>32f57cb9-b7d2-4262-acc8-cfdbafca5ddf</featureUUID>
+        <featureType>Fix</featureType>
+        <featureName>T07A</featureName>
+    </action>
+    <action>
+        <userName>804152</userName>
+        <creationDate>01/08/2019 10:40:26</creationDate>
+        <description>Action test</description>
+        <featureUUID>c85bb93e-db1a-4130-8ba6-945a134661c4</featureUUID>
+        <featureType>Route</featureType>
+        <featureName>T11E</featureName>
+    </action>
+</actionLogs>

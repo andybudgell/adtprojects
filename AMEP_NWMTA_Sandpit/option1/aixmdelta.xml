@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id000016">
+	<message:hasMember>
+		<aixm:Airspace gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">ae57c81d-fe00-41ca-ab27-20932ebb8e4b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2023-06-30T16:57:33</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2023-06-30T16:57:33</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>D</aixm:type>
+					<aixm:designator>VATAS</aixm:designator>
+					<aixm:name xsi:nil="true"/>
+					<aixm:designatorICAO>NO</aixm:designatorICAO>
+					<aixm:upperLowerSeparation xsi:nil="true"/>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="id000004">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000005">
+									<aixm:horizontalProjection>
+										<aixm:Surface gml:id="id000006"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:patches>
+												<gml:PolygonPatch xsi:type="gml:PolygonPatchType"
+														interpolation="planar">
+													<gml:exterior>
+														<gml:LinearRing>
+															<gml:pos>53.028206049 -5.133847795</gml:pos>
+															<gml:pos>53.023206888 -4.878481432</gml:pos>
+															<gml:pos>53.296724562 -4.874441183</gml:pos>
+															<gml:pos>53.30278 -5.13139</gml:pos>
+															<gml:pos>53.20667 -5.36139</gml:pos>
+															<gml:pos>53.028634641 -5.362833963</gml:pos>
+															<gml:pos>53.028206049 -5.133847795</gml:pos>
+														</gml:LinearRing>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent xsi:type="aixm:AirspaceGeometryComponentType"
+								gml:id="id000007">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000008">
+									<aixm:horizontalProjection>
+										<aixm:Surface gml:id="id000009"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:patches>
+												<gml:PolygonPatch xsi:type="gml:PolygonPatchType"
+														interpolation="planar">
+													<gml:exterior>
+														<gml:LinearRing>
+															<gml:pos>53.277571342 -4.425003597</gml:pos>
+															<gml:pos>53.011501121 -4.441241237</gml:pos>
+															<gml:pos>53.020275218 -4.822026156</gml:pos>
+															<gml:pos>53.293783982 -4.882800557</gml:pos>
+															<gml:pos>53.277571342 -4.425003597</gml:pos>
+														</gml:LinearRing>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent xsi:type="aixm:AirspaceGeometryComponentType"
+								gml:id="id000010">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000011">
+									<aixm:horizontalProjection>
+										<aixm:Surface gml:id="id000012"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:patches>
+												<gml:PolygonPatch xsi:type="gml:PolygonPatchType"
+														interpolation="planar">
+													<gml:exterior>
+														<gml:LinearRing>
+															<gml:pos>53.2290639 -3.9883833</gml:pos>
+															<gml:pos>53.2141389 -3.6307583</gml:pos>
+															<gml:pos>53.10083 -3.43444</gml:pos>
+															<gml:pos>52.976572327 -3.441857606</gml:pos>
+															<gml:pos>53.002533602 -4.030479496</gml:pos>
+															<gml:pos>53.2290639 -3.9883833</gml:pos>
+														</gml:LinearRing>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent xsi:type="aixm:AirspaceGeometryComponentType"
+								gml:id="id000013">
+							<aixm:operation>BASE</aixm:operation>
+							<aixm:operationSequence>1</aixm:operationSequence>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="id000014">
+									<aixm:horizontalProjection>
+										<aixm:Surface gml:id="id000015"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:patches>
+												<gml:PolygonPatch xsi:type="gml:PolygonPatchType"
+														interpolation="planar">
+													<gml:exterior>
+														<gml:LinearRing>
+															<gml:pos>53.277571342 -4.425003597</gml:pos>
+															<gml:pos>53.2290639 -3.9883833</gml:pos>
+															<gml:pos>52.992281247 -4.102854383</gml:pos>
+															<gml:pos>53.011501121 -4.441241237</gml:pos>
+															<gml:pos>53.277571342 -4.425003597</gml:pos>
+														</gml:LinearRing>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</message:hasMember>
+</message:AIXMBasicMessage>

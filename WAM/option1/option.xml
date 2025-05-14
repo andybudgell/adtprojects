@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>WAM</projectName>
+    <aixmBaseline>UK_AIRAC_02_2021_WAM.xml</aixmBaseline>
+    <description>WM</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>19/05/2021 08:42:18</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <closed>false</closed>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

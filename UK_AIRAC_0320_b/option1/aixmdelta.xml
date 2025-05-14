@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id200048">
+	<message:hasMember>
+		<aixm:Route gml:id="id200001">
+			<gml:identifier codeSpace="urn:uuid:">4c9e32e9-24dc-4b20-8535-086c327a1433</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteTimeSlice gml:id="id200005">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200006">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200007">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designatorPrefix xsi:nil="true"/>
+					<aixm:designatorSecondLetter xsi:nil="true"/>
+					<aixm:designatorNumber xsi:nil="true"/>
+					<aixm:multipleIdentifier xsi:nil="true"/>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:RouteTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Route>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200008">
+			<gml:identifier codeSpace="urn:uuid:">d58ab36b-2b09-4aa9-b1c2-c823fb95bb27</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200009">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200010">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200011">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200012">
+			<gml:identifier codeSpace="urn:uuid:">63b652bf-2449-4daa-a0a3-6161d82c13ef</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200013">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200014">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200015">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200016">
+			<gml:identifier codeSpace="urn:uuid:">29530c32-e628-48b7-92da-b15abae53637</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200017">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200018">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200019">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200020">
+			<gml:identifier codeSpace="urn:uuid:">01a56e99-be9e-4bb1-a4b1-a156d2be0dc7</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200021">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200022">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200023">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200024">
+			<gml:identifier codeSpace="urn:uuid:">540a6fed-2390-4e87-a290-ac6584470589</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200025">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200026">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200027">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200028">
+			<gml:identifier codeSpace="urn:uuid:">c8a5189a-2ee4-4b1e-9a34-d6a3663bb8dd</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200029">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200030">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200031">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200032">
+			<gml:identifier codeSpace="urn:uuid:">f3f24a4e-851b-4e41-b139-e465615a1a1a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200033">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200034">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200035">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200036">
+			<gml:identifier codeSpace="urn:uuid:">539a0ee0-9435-4fe1-970a-1006d90dd8b3</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200037">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200038">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200039">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200040">
+			<gml:identifier codeSpace="urn:uuid:">55b9e9a3-b75a-499f-8c32-911dc5ca3502</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200041">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200042">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200043">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id200044">
+			<gml:identifier codeSpace="urn:uuid:">8e163bd8-4ad1-4ad8-b660-5e37a87e6a81</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id200045">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200046">
+							<gml:timePosition>2022-06-27T08:58:45</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200047">
+							<gml:beginPosition>2022-06-27T08:58:45</gml:beginPosition>
+							<gml:endPosition>2022-06-27T08:58:45</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:upperLimitReference xsi:nil="true"/>
+					<aixm:lowerLimit xsi:nil="true"/>
+					<aixm:lowerLimitReference xsi:nil="true"/>
+					<aixm:requiredNavigationPerformance xsi:nil="true"/>
+					<aixm:start xsi:nil="true"/>
+					<aixm:routeFormed xlink:href="urn:uuid:4c9e32e9-24dc-4b20-8535-086c327a1433"/>
+					<aixm:end xsi:nil="true"/>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+</message:AIXMBasicMessage>

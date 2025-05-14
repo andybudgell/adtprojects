@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>AB_FRA</projectName>
+    <aixmBaseline>UK_AIRAC_03_2025_Extended.xml</aixmBaseline>
+    <description>AB_FRA_TEST</description>
+    <optionName>Option 2</optionName>
+    <lastSavedDateTime>28/04/2025 14:34:04</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>-1</activeFlightSampleId>
+    <creator>804948</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

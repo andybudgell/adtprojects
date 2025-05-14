@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id200185">
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200001">
+			<gml:identifier codeSpace="urn:uuid:">c70a5d5b-e9ce-4112-ac13-56bdb50e6d6a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200002">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200003">
+							<gml:timePosition>2019-07-25T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200004">
+							<gml:beginPosition>2019-07-25T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>AC1356BDB50E6D6A</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200005">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200006">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:9933a1d4-4e37-47df-9afa-b2b7903bd2d2"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200007">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>DEP</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200008">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_navaidSystem xlink:href="airtop:uuid:b0cd9d50-f212-488d-a6de-ed71817dcff0"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200009">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200010">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200011">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200012">
+											<aixm:upperLevel uom="FL">300</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">300</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_navaidSystem xlink:href="airtop:uuid:b0cd9d50-f212-488d-a6de-ed71817dcff0"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200013">
+			<gml:identifier codeSpace="urn:uuid:">c8cb1a44-0cf2-4b35-9160-9af56b652845</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200014">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200015">
+							<gml:timePosition>2019-07-25T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200016">
+							<gml:beginPosition>2019-07-25T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>91609AF56B652845</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200017">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200018">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:9933a1d4-4e37-47df-9afa-b2b7903bd2d2"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200019">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>ARR</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200020">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="airtop:uuid:8b579b8a-c69d-4b19-a41d-9101957cce6e"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200021">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200022">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200023">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200024">
+											<aixm:upperLevel uom="FL">300</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">300</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="airtop:uuid:8b579b8a-c69d-4b19-a41d-9101957cce6e"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200025">
+			<gml:identifier codeSpace="urn:uuid:">0d2e55c4-ec72-4e0f-9ced-36c85601b134</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200026">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200027">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200028">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-30T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>9CED36C85601B134</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200029">
+			<gml:identifier codeSpace="urn:uuid:">24a847f1-250c-4ac3-9500-de69a08a0db5</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200030">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200031">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200032">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-30T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>9500DE69A08A0DB5</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200033">
+			<gml:identifier codeSpace="urn:uuid:">35c8a980-97ec-4a3e-9e38-d345ae0671ca</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200034">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200035">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200036">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>9E38D345AE0671CA</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200037">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200038">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:62754e59-7e11-4f4c-988b-5ef11260d022"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200039">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>ARR</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200040">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="airtop:uuid:3993f24b-f99f-43c5-8cc8-a589f038eb75"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200041">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200042">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200043">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200044">
+											<aixm:upperLevel uom="FL">200</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">200</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="airtop:uuid:3993f24b-f99f-43c5-8cc8-a589f038eb75"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200045">
+			<gml:identifier codeSpace="urn:uuid:">612cc15d-5d36-42e5-9ab4-cff209171a37</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200046">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200047">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200048">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>9AB4CFF209171A37</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200049">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200050">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:9933a1d4-4e37-47df-9afa-b2b7903bd2d2"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200051">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>ARR</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200052">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="airtop:uuid:5ec2824d-cbf5-4e86-b67f-850b41a0e09d"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200053">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200054">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200055">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200056">
+											<aixm:upperLevel uom="FL">200</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">200</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="airtop:uuid:5ec2824d-cbf5-4e86-b67f-850b41a0e09d"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200057">
+			<gml:identifier codeSpace="urn:uuid:">83b31111-3d29-42a0-ace2-b59ed2f101a0</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200058">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200059">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200060">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-30T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>ACE2B59ED2F101A0</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200061">
+			<gml:identifier codeSpace="urn:uuid:">8adbf6fe-fccc-4229-bfbb-f7d8a7b16446</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200062">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200063">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200064">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-30T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>BFBBF7D8A7B16446</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200065">
+			<gml:identifier codeSpace="urn:uuid:">8e0fb8b7-65c7-40b6-9b55-61e36be6a301</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200066">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200067">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200068">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-30T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>9B5561E36BE6A301</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200069">
+			<gml:identifier codeSpace="urn:uuid:">ad443387-8eed-4f35-bac0-775e4b29f20b</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200070">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200071">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200072">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>BAC0775E4B29F20B</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200073">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200074">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:62754e59-7e11-4f4c-988b-5ef11260d022"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200075">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>ARR</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200076">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="airtop:uuid:37c8f69c-f7e9-434a-998d-709664c5b307"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200077">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200078">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200079">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200080">
+											<aixm:upperLevel uom="FL">200</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">200</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="airtop:uuid:37c8f69c-f7e9-434a-998d-709664c5b307"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200081">
+			<gml:identifier codeSpace="urn:uuid:">b9214fd6-b683-49f8-a40d-3da18ca9287a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200082">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200083">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200084">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>A40D3DA18CA9287A</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200085">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200086">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:aa376dfc-c530-4ed9-80ad-8649ac13f464"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200087">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>DEP</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200088">
+									<aixm:index>2</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:46b21ca6-6900-40cf-a761-113ccea63cf5"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200089">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>ARR</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200090">
+									<aixm:index>3</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="airtop:uuid:1a36ecaa-985f-4396-b6ca-068ed469b89d"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200091">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200092">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200093">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200094">
+											<aixm:upperLevel uom="FL">100</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">100</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="airtop:uuid:1a36ecaa-985f-4396-b6ca-068ed469b89d"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200095">
+			<gml:identifier codeSpace="urn:uuid:">bd416b36-3849-43bd-8c67-ebeadff73550</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200096">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200097">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200098">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>8C67EBEADFF73550</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200099">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200100">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:7ae7e462-e292-437d-8d21-7bbf0da6bc6b"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200101">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>DEP</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200102">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_navaidSystem xlink:href="airtop:uuid:625bcf96-63ae-4243-b3ec-f8937d20d88c"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200103">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200104">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200105">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200106">
+											<aixm:upperLevel uom="FL">130</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">130</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_navaidSystem xlink:href="airtop:uuid:625bcf96-63ae-4243-b3ec-f8937d20d88c"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200107">
+			<gml:identifier codeSpace="urn:uuid:">c1112e42-24c4-4c87-af40-d06821842a11</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200108">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200109">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200110">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-30T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>AF40D06821842A11</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200111">
+			<gml:identifier codeSpace="urn:uuid:">db79db64-69bb-4253-ad77-1b1afe99c979</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200112">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200113">
+							<gml:timePosition>2019-07-30T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200114">
+							<gml:beginPosition>2019-07-30T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-30T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>AD771B1AFE99C979</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:HoldingPattern gml:id="airtop.uuid.svIL1tk53">
+			<gml:identifier codeSpace="airtop:uuid:">332845db-8a5a-41ad-82ec-c3d7c69c10bb</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:HoldingPatternTimeSlice gml:id="airtop.uuid.aABXIQpwU">
+					<gml:validTime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="airtop.uuid.aUFfWTPYM">
+							<gml:beginPosition>2019-07-23T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:sequenceNumber>1</aixm:sequenceNumber>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="airtop.uuid.mANLO5amCJ28Z8QHv2wdz">
+							<gml:beginPosition>2019-07-23T00:00:00Z</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>OTHER</aixm:type>
+					<aixm:inboundCourse>187</aixm:inboundCourse>
+					<aixm:turnDirection>LEFT</aixm:turnDirection>
+					<aixm:upperLimit uom="FL">140</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">70</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:speedLimit uom="KT">220</aixm:speedLimit>
+					<aixm:nonStandardHolding>YES</aixm:nonStandardHolding>
+					<aixm:outboundLegSpan_endTime>
+						<aixm:HoldingPatternDuration gml:id="id200115">
+							<aixm:duration uom="SEC">60</aixm:duration>
+						</aixm:HoldingPatternDuration>
+					</aixm:outboundLegSpan_endTime>
+					<aixm:holdingPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200116">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:eab703d1-bc4b-417b-a185-709ec1b7e1e8"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:holdingPoint>
+				</aixm:HoldingPatternTimeSlice>
+			</aixm:timeSlice>
+		</aixm:HoldingPattern>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200117">
+			<gml:identifier codeSpace="urn:uuid:">3e61abd2-c783-44e0-b219-9e44b50f13af</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200118">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200119">
+							<gml:timePosition>2019-07-31T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200120">
+							<gml:beginPosition>2019-07-31T00:00:00</gml:beginPosition>
+							<gml:endPosition>2019-07-31T00:00:00</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>B2199E44B50F13AF</aixm:designator>
+					<aixm:type nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:flight nilReason="other:deleted"
+							xsi:nil="true"/>
+					<aixm:regulatedRoute nilReason="other:deleted"
+							xsi:nil="true"/>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200121">
+			<gml:identifier codeSpace="urn:uuid:">4c601cdb-0b9a-4917-bd6f-bfddea94bb6d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200122">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200123">
+							<gml:timePosition>2019-07-31T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200124">
+							<gml:beginPosition>2019-07-31T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>BD6FBFDDEA94BB6D</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200125">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200126">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:b4274096-7463-40ee-a6b9-008c4fa19834"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200127">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>DEP</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200128">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="airtop:uuid:3ebe13f7-1935-4d14-aff8-8d2ac7373bb6"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200129">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200130">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200131">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200132">
+											<aixm:upperLevel uom="FL">250</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">250</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="airtop:uuid:3ebe13f7-1935-4d14-aff8-8d2ac7373bb6"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FlightRestriction gml:id="id200133">
+			<gml:identifier codeSpace="urn:uuid:">8f762b96-86af-4706-ab96-e49b862aa757</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FlightRestrictionTimeSlice gml:id="id200134">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200135">
+							<gml:timePosition>2019-07-31T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200136">
+							<gml:beginPosition>2019-07-31T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>AB96E49B862AA757</aixm:designator>
+					<aixm:type>ALLOWED</aixm:type>
+					<aixm:flight>
+						<aixm:FlightConditionCombination gml:id="id200137">
+							<aixm:logicalOperator>AND</aixm:logicalOperator>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200138">
+									<aixm:index>1</aixm:index>
+									<aixm:flightCondition_airportHeliportCondition xlink:href="urn:uuid:6a00144e-7ead-4b36-b58c-b58dd67a2822"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200139">
+											<aixm:referenceLocation>NO</aixm:referenceLocation>
+											<aixm:relationWithLocation>ARR</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+							<aixm:element>
+								<aixm:FlightConditionElement gml:id="id200140">
+									<aixm:index>2</aixm:index>
+									<aixm:significantPointCondition_fixDesignatedPoint xlink:href="airtop:uuid:ecd40256-db56-4dc2-98f5-08c16aa2d6e1"/>
+									<aixm:operationalCondition>
+										<aixm:FlightConditionCircumstance gml:id="id200141">
+											<aixm:referenceLocation>YES</aixm:referenceLocation>
+											<aixm:relationWithLocation>XNG</aixm:relationWithLocation>
+										</aixm:FlightConditionCircumstance>
+									</aixm:operationalCondition>
+								</aixm:FlightConditionElement>
+							</aixm:element>
+						</aixm:FlightConditionCombination>
+					</aixm:flight>
+					<aixm:regulatedRoute>
+						<aixm:FlightRestrictionRoute gml:id="id200142">
+							<aixm:priorPermission>NO</aixm:priorPermission>
+							<aixm:routeElement>
+								<aixm:FlightRoutingElement gml:id="id200143">
+									<aixm:orderNumber>1</aixm:orderNumber>
+									<aixm:flightLevel>
+										<aixm:FlightRestrictionLevel gml:id="id200144">
+											<aixm:upperLevel uom="FL">300</aixm:upperLevel>
+											<aixm:upperLevelReference>STD</aixm:upperLevelReference>
+											<aixm:lowerLevel uom="FL">300</aixm:lowerLevel>
+											<aixm:lowerLevelReference>STD</aixm:lowerLevelReference>
+										</aixm:FlightRestrictionLevel>
+									</aixm:flightLevel>
+									<aixm:pointElement_fixDesignatedPoint xlink:href="airtop:uuid:ecd40256-db56-4dc2-98f5-08c16aa2d6e1"/>
+								</aixm:FlightRoutingElement>
+							</aixm:routeElement>
+						</aixm:FlightRestrictionRoute>
+					</aixm:regulatedRoute>
+				</aixm:FlightRestrictionTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FlightRestriction>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InitialLeg gml:id="id200150">
+			<gml:identifier codeSpace="urn:uuid:">0a8b2a2c-3c16-444c-ae31-c0d36a74f73e</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InitialLegTimeSlice gml:id="id200151">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200152">
+							<gml:timePosition>2019-08-28T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200153">
+							<gml:beginPosition>2019-08-28T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:upperLimitAltitude uom="FL">80</aixm:upperLimitAltitude>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimitAltitude uom="FL">70</aixm:lowerLimitAltitude>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:startPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200154">
+							<aixm:pointChoice_navaidSystem xlink:href="airtop:uuid:34e4b5e3-042d-493d-b438-9f1bf15e1cb5"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:startPoint>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200155">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:41e669d2-a3b8-40e8-9f3a-883231281989"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:007ed1d1-d04d-411c-95de-a3b654659843"/>
+				</aixm:InitialLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InitialLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:IntermediateLeg gml:id="id200157">
+			<gml:identifier codeSpace="urn:uuid:">379a003e-630f-444a-9044-ea03476288f8</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:IntermediateLegTimeSlice gml:id="id200158">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200159">
+							<gml:timePosition>2019-08-28T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200160">
+							<gml:beginPosition>2019-08-28T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:upperLimitAltitude uom="FL">80</aixm:upperLimitAltitude>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimitAltitude uom="FL">70</aixm:lowerLimitAltitude>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:startPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200161">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:41e669d2-a3b8-40e8-9f3a-883231281989"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:startPoint>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200162">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:43ae2425-d0f5-47c1-ac3a-5315389df5a6"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:007ed1d1-d04d-411c-95de-a3b654659843"/>
+				</aixm:IntermediateLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:IntermediateLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:IntermediateLeg gml:id="id200164">
+			<gml:identifier codeSpace="urn:uuid:">84609f3c-6f66-46ba-b556-d1b4bb2d0f22</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:IntermediateLegTimeSlice gml:id="id200165">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200166">
+							<gml:timePosition>2019-08-28T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200167">
+							<gml:beginPosition>2019-08-28T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:upperLimitAltitude uom="FL">60</aixm:upperLimitAltitude>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:startPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200168">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:43ae2425-d0f5-47c1-ac3a-5315389df5a6"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:startPoint>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200169">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:d377d21e-2dfe-4bd7-9593-99c05aec2dfe"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:007ed1d1-d04d-411c-95de-a3b654659843"/>
+				</aixm:IntermediateLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:IntermediateLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:IntermediateLeg gml:id="id200171">
+			<gml:identifier codeSpace="urn:uuid:">35c2526c-d05a-4152-bb74-404859b9f400</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:IntermediateLegTimeSlice gml:id="id200172">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200173">
+							<gml:timePosition>2019-08-28T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200174">
+							<gml:beginPosition>2019-08-28T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:startPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200175">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:d377d21e-2dfe-4bd7-9593-99c05aec2dfe"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:startPoint>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200176">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:e8c017f1-3c38-4972-80b9-3740cbc6fbfc"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:007ed1d1-d04d-411c-95de-a3b654659843"/>
+				</aixm:IntermediateLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:IntermediateLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:FinalLeg gml:id="id200178">
+			<gml:identifier codeSpace="urn:uuid:">8b964a5f-17e4-404d-8dd2-19f0c42974c3</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:FinalLegTimeSlice gml:id="id200179">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200180">
+							<gml:timePosition>2019-08-28T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200181">
+							<gml:beginPosition>2019-08-28T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:legTypeARINC>TF</aixm:legTypeARINC>
+					<aixm:lowerLimitAltitude uom="FL">25</aixm:lowerLimitAltitude>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:startPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200182">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:e8c017f1-3c38-4972-80b9-3740cbc6fbfc"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:startPoint>
+					<aixm:endPoint>
+						<aixm:TerminalSegmentPoint gml:id="id200183">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="airtop:uuid:6c9f4b66-d1f6-4e0c-8ed3-d889b987b877"/>
+						</aixm:TerminalSegmentPoint>
+					</aixm:endPoint>
+					<aixm:approach xlink:href="urn:uuid:007ed1d1-d04d-411c-95de-a3b654659843"/>
+				</aixm:FinalLegTimeSlice>
+			</aixm:timeSlice>
+		</aixm:FinalLeg>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:InstrumentApproachProcedure gml:id="id200145">
+			<gml:identifier codeSpace="urn:uuid:">007ed1d1-d04d-411c-95de-a3b654659843</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:InstrumentApproachProcedureTimeSlice gml:id="id200146">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200147">
+							<gml:timePosition>2019-08-28T00:00:00</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200148">
+							<gml:beginPosition>2019-08-28T00:00:00</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:name>LLOCK</aixm:name>
+					<aixm:RNAV>NO</aixm:RNAV>
+					<aixm:airportHeliport xlink:href="urn:uuid:9933a1d4-4e37-47df-9afa-b2b7903bd2d2"/>
+					<aixm:flightTransition>
+						<aixm:ProcedureTransition gml:id="id200149">
+							<aixm:transitionId>OCK</aixm:transitionId>
+							<aixm:type>APPROACH</aixm:type>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id200156">
+									<aixm:seqNumberARINC>10</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:0a8b2a2c-3c16-444c-ae31-c0d36a74f73e"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id200163">
+									<aixm:seqNumberARINC>20</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:379a003e-630f-444a-9044-ea03476288f8"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id200170">
+									<aixm:seqNumberARINC>30</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:84609f3c-6f66-46ba-b556-d1b4bb2d0f22"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id200177">
+									<aixm:seqNumberARINC>40</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:35c2526c-d05a-4152-bb74-404859b9f400"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+							<aixm:transitionLeg>
+								<aixm:ProcedureTransitionLeg gml:id="id200184">
+									<aixm:seqNumberARINC>50</aixm:seqNumberARINC>
+									<aixm:theSegmentLeg xlink:href="urn:uuid:8b964a5f-17e4-404d-8dd2-19f0c42974c3"/>
+								</aixm:ProcedureTransitionLeg>
+							</aixm:transitionLeg>
+						</aixm:ProcedureTransition>
+					</aixm:flightTransition>
+					<aixm:approachType>OTHER</aixm:approachType>
+				</aixm:InstrumentApproachProcedureTimeSlice>
+			</aixm:timeSlice>
+		</aixm:InstrumentApproachProcedure>
+	</message:hasMember>
+</message:AIXMBasicMessage>

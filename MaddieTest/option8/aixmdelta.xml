@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id000244">
+	<message:hasMember>
+		<aixm:DesignatedPoint gml:id="id000000">
+			<gml:identifier codeSpace="urn:uuid:">d5cc3a76-26cd-4958-ad61-39749e9c7d24</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:DesignatedPointTimeSlice gml:id="id000001">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000002">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000003">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designator>D26CD</aixm:designator>
+					<aixm:type>DESIGNED</aixm:type>
+					<aixm:name xsi:nil="true"/>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id000004"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>53.821582537 -2.414809508</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:DesignatedPointTimeSlice>
+			</aixm:timeSlice>
+		</aixm:DesignatedPoint>
+	</message:hasMember>
+	<message:hasMember xsi:type="message:BasicMessageMemberAIXMPropertyType">
+		<aixm:Route gml:id="id000005">
+			<gml:identifier codeSpace="urn:uuid:">59910ac6-0efc-4baf-a765-753343fa5282</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteTimeSlice gml:id="id000006">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000007">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000008">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:designatorPrefix xsi:nil="true"/>
+					<aixm:designatorSecondLetter>P</aixm:designatorSecondLetter>
+					<aixm:designatorNumber>16</aixm:designatorNumber>
+					<aixm:multipleIdentifier xsi:nil="true"/>
+					<aixm:type>ATS</aixm:type>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000009">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000010">
+									<aixm:note>Due to ATC operational requirements, the cruising level allocation between TOJAQ and GASKO is inappropriate to the MAG Track. See also ENR 1.1, paragraph 1.1.3. </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Route>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000011">
+			<gml:identifier codeSpace="urn:uuid:">a5b7744d-6ee4-44fd-b8a5-4c538d376d82</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000012">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000013">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000014">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">85</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000015">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:d3ae2dc6-f153-4c11-b02f-ea853b2e8a93"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000016">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:14c94172-9746-44a6-8f3f-9dc2ffda9e5e"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000021">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000022">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">100</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000017">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000018">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 85 Class A. London ACC Freq: 126.080 (FL 195 and above). Jersey Control Freq: 125.205 (Below FL 195).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000019">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000020">
+									<aixm:note>Eastbound (northbound) route only between SKESO and NOKIN. FIR Boundary. Extremity of P16.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000023">
+			<gml:identifier codeSpace="urn:uuid:">1cc04a65-fc96-43a9-b099-30ba475785e9</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000024">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000025">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000026">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">85</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000027">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:14c94172-9746-44a6-8f3f-9dc2ffda9e5e"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000028">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:9a969fa7-8213-406c-87f1-5a939980fe78"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000031">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000032">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">100</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000029">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000030">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 85 Class A. Between LIFOX and 4 NM before EMWIP: London ACC Freq: 126.080 (FL 195 and above). Jersey Control Freq: 125.205 (Below FL 195). Between 4 NM before EMWIP and EMWIP: London ACC Freq: 126.080 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000033">
+			<gml:identifier codeSpace="urn:uuid:">bf50d134-fa65-4af4-8b18-fd92565b2059</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000034">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000035">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000036">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">85</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000037">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:9a969fa7-8213-406c-87f1-5a939980fe78"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000038">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:0d5e0e35-cc26-4ef4-a904-f0c50be1f549"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000041">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>COND</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000042">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">100</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000039">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000040">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 85 Class A. London ACC Freq: 126.080 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000043">
+			<gml:identifier codeSpace="urn:uuid:">5c9148aa-c356-4eba-9720-0cea62e7bde2</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000044">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000045">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000046">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000047">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:0d5e0e35-cc26-4ef4-a904-f0c50be1f549"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000048">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:22a4e2cd-a893-411b-81f8-5b992976372e"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000053">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000054">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">160</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000049">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000050">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 145 Class A. London ACC Freq: 126.080 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000051">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000052">
+									<aixm:note>Intersection with N22.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000055">
+			<gml:identifier codeSpace="urn:uuid:">a92027da-7870-4115-bbc6-476bf4d4a2f4</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000056">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000057">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000058">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000059">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:22a4e2cd-a893-411b-81f8-5b992976372e"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000060">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:97044f60-8e6a-4fbb-91f6-e96d9b7cc3fc"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000063">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000064">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">160</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000061">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000062">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 145 Class A. London ACC Freq: 126.080 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000065">
+			<gml:identifier codeSpace="urn:uuid:">59413c18-9c90-4e6b-ba65-c7cee6388633</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000066">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000067">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000068">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000069">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:97044f60-8e6a-4fbb-91f6-e96d9b7cc3fc"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000070">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:ea536e55-83cb-4137-bef6-5b197fcaade0"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000073">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000074">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">160</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000071">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000072">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 145 Class A. London ACC Freq: 126.080 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000075">
+			<gml:identifier codeSpace="urn:uuid:">e42e78e3-1f9f-42ba-aabe-387ed2197d87</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000076">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000077">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000078">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000079">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:ea536e55-83cb-4137-bef6-5b197fcaade0"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000080">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:2863e2db-f3ef-4864-9c0a-5f4338ab24ae"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000083">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000084">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">160</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000081">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000082">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 145 Class A. 0600-2300 (0500-2200) London ACC Freq: 126.080 (FL 165 and above); Cardiff APP Freq: 125.855 (Below FL 165). 2300-0600 (2200-0500) London ACC Freq: 126.080 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000085">
+			<gml:identifier codeSpace="urn:uuid:">18e62c10-062d-47d3-9f7f-546136341a5a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000086">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000087">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000088">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000089">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:2863e2db-f3ef-4864-9c0a-5f4338ab24ae"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000090">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:88b72469-8a7b-4fee-b614-3655d1d43e66"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000093">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000094">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000091">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000092">
+									<aixm:note>Class C. London ACC Freq: 126.080 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000095">
+			<gml:identifier codeSpace="urn:uuid:">445dce66-5c03-4fad-905b-e76563bfba60</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000096">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000097">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000098">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000099">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:88b72469-8a7b-4fee-b614-3655d1d43e66"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000100">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:45b7a4e8-6c6f-4aff-b34c-68d55953da65"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000105">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000106">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000101">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000102">
+									<aixm:note>Class C. London ACC Freq: 134.755 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000103">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000104">
+									<aixm:note>Intersection with N91.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000107">
+			<gml:identifier codeSpace="urn:uuid:">7d9d4385-092a-4bb5-8dbc-a5468d4d1b0d</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000108">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000109">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000110">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">195</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000111">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:45b7a4e8-6c6f-4aff-b34c-68d55953da65"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000112">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:f59026b2-d331-4fb9-ba51-1a21e3ee896c"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000115">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000116">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000113">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000114">
+									<aixm:note>Class C. London ACC Freq: 133.600 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000117">
+			<gml:identifier codeSpace="urn:uuid:">cedb99b6-f82f-4f55-84a0-4872efc15a44</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000118">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000119">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000120">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">175</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000121">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:f59026b2-d331-4fb9-ba51-1a21e3ee896c"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000122">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:d797c694-c8a5-439e-9748-10b3c57a17c3"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000125">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000126">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">180</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000123">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000124">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 175 Class A. London ACC Freq: 133.600 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000127">
+			<gml:identifier codeSpace="urn:uuid:">d6f94ae8-15dd-4d85-8cf0-ff1a4f429057</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000128">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000129">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000130">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">155</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000131">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:d797c694-c8a5-439e-9748-10b3c57a17c3"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000132">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:44fe851f-e39c-4cd2-97a7-64dca758c0e9"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000135">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000136">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">160</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000133">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000134">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 155 Class A. London ACC Freq: 133.600 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000137">
+			<gml:identifier codeSpace="urn:uuid:">73a3c076-97e7-45a6-92f0-edcc6c67737e</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000138">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000139">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000140">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">145</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000141">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:44fe851f-e39c-4cd2-97a7-64dca758c0e9"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000142">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:ea645e29-9a46-4ffc-a32e-bbcc62fef241"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000145">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000146">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">160</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000143">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000144">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 145 Class A. London ACC Freq: 133.600 (All Levels).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000147">
+			<gml:identifier codeSpace="urn:uuid:">99721821-2e07-484a-9a1f-89e5226eb5c2</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000148">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000149">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000150">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">105</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000151">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:ea645e29-9a46-4ffc-a32e-bbcc62fef241"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000152">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:585d104a-832a-49a2-8665-26e726682c0e"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000155">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000156">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">120</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000153">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000154">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 105 Class A. London ACC Freq: 133.600 (FL 145 and above). Scottish ACC Freq: 128.055 (Below FL 145).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000157">
+			<gml:identifier codeSpace="urn:uuid:">741cd584-e942-4d2a-8e08-3c3aa2a6bf03</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000158">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000159">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000160">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">85</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>1</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000161">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:585d104a-832a-49a2-8665-26e726682c0e"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000162">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:285c3bdf-810d-43e2-b725-40d9fcc362a1"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000165">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000166">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">100</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000163">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000164">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 85 Class A. London ACC Freq: 133.600 (FL 145 and above). Scottish ACC Freq: 128.055 (Below FL 145).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000167">
+			<gml:identifier codeSpace="urn:uuid:">ef4a407c-b074-41d1-a3f3-49d56d881d17</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000168">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000169">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000170">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">105</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000171">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:285c3bdf-810d-43e2-b725-40d9fcc362a1"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000172">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:5066f458-4c56-4397-b994-5978e9432357"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000177">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000178">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">120</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000173">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000174">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 105 Class A. Scottish ACC Freq: 118.780 (FL 195 and above); Freq: 128.055 (Below FL 195).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000175">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000176">
+									<aixm:note>Intersection with N864.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000179">
+			<gml:identifier codeSpace="urn:uuid:">5ed3ef9f-a4ee-4e02-a077-1eb540085684</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000180">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000181">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000182">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">105</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000183">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:5066f458-4c56-4397-b994-5978e9432357"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000184">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:95e8ad07-6722-4075-b3cf-b75559f7adf4"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000193">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000194">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000195">
+							<aixm:direction>BACKWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000196">
+									<aixm:upperLimit uom="FL">230</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">190</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:11adc245-1bd2-4949-aa08-3ed996f688c7"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000185">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>OTHER:AIXM45_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000186">
+									<aixm:note>Lower limit override: Units of measurement [lower limit override]: Reference for [lower limit override]: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000187">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000188">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 105 Class A. Scottish ACC Freq: 118.780 (Above FL 195); Freq: 128.055 (FL 195 and below).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000189">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000190">
+									<aixm:note>Intersection with N862 and P17.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000191">
+							<aixm:propertyName>minimumEnrouteAltitude</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000192">
+									<aixm:note>Reference for minimum limit: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000197">
+			<gml:identifier codeSpace="urn:uuid:">9b9a708f-dbbd-4874-803b-9c991dc07248</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000198">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000199">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000200">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">105</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000201">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:95e8ad07-6722-4075-b3cf-b75559f7adf4"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000202">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:ed1fb3d5-ae7b-41e1-8a51-7d84655f9567"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000209">
+							<aixm:direction>BACKWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000210">
+									<aixm:upperLimit uom="FL">230</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">190</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:11adc245-1bd2-4949-aa08-3ed996f688c7"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000211">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000212">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000203">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>OTHER:AIXM45_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000204">
+									<aixm:note>Lower limit override: Units of measurement [lower limit override]: Reference for [lower limit override]: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000205">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000206">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 105 Class A. Scottish ACC Freq: 118.780 (Above FL 195); Freq: 128.055 (FL 195 and below).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000207">
+							<aixm:propertyName>minimumEnrouteAltitude</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000208">
+									<aixm:note>Reference for minimum limit: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000213">
+			<gml:identifier codeSpace="urn:uuid:">16e4c7b7-8507-4885-b597-3e305dd1917a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000214">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000215">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000216">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">105</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000217">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:ed1fb3d5-ae7b-41e1-8a51-7d84655f9567"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000218">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:d5cc3a76-26cd-4958-ad61-39749e9c7d24"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000227">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000228">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000229">
+							<aixm:direction>BACKWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000230">
+									<aixm:upperLimit uom="FL">230</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">190</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:11adc245-1bd2-4949-aa08-3ed996f688c7"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000219">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>OTHER:AIXM45_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000220">
+									<aixm:note>Lower limit override: Units of measurement [lower limit override]: Reference for [lower limit override]: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000221">
+							<aixm:propertyName xsi:nil="true"/>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000222">
+									<aixm:note>FL 245/FL 195 Class C, FL 195/FL 105 Class A. Scottish ACC Freq: 118.780 (Above FL 195); Freq: 135.715 (FL 195 and below).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000223">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000224">
+									<aixm:note>Intersection with L612 and Y70.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id000225">
+							<aixm:propertyName>minimumEnrouteAltitude</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id000226">
+									<aixm:note>Reference for minimum limit: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id000231">
+			<gml:identifier codeSpace="urn:uuid:">9a10ec6e-6eb4-400d-acef-8012678b4657</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000232">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000233">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000234">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">105</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id000235">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:d5cc3a76-26cd-4958-ad61-39749e9c7d24"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint gml:id="id000236">
+							<aixm:pointChoice_fixDesignatedPoint xlink:href="urn:uuid:ddb7de9c-5568-48e8-b459-c05b3e9b6547"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000237">
+							<aixm:direction>FORWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000238">
+									<aixm:upperLimit uom="FL">240</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">200</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:635057b1-f3f1-43ea-8a88-0433e7aee80b"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id000239">
+							<aixm:direction>BACKWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id000240">
+									<aixm:upperLimit uom="FL">230</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">190</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:href="urn:uuid:11adc245-1bd2-4949-aa08-3ed996f688c7"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+	<message:hasMember>
+		<aixm:RouteSegment gml:id="id349730">
+			<gml:identifier codeSpace="urn:uuid:">85a40528-a313-456e-9c53-095369222b41</gml:identifier>
+			<gml:boundedBy xsi:nil="true"/>
+			<aixm:timeSlice>
+				<aixm:RouteSegmentTimeSlice gml:id="id000241">
+					<gml:validTime xlink:type="simple">
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id000242">
+							<gml:timePosition>2024-05-09T08:35:51</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime xlink:type="simple">
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id000243">
+							<gml:beginPosition>2024-05-09T08:35:51</gml:beginPosition>
+							<gml:endPosition>2024-05-09T08:35:51</gml:endPosition>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:level xsi:nil="true"/>
+					<aixm:upperLimit uom="FL">245</aixm:upperLimit>
+					<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+					<aixm:lowerLimit uom="FL">125</aixm:lowerLimit>
+					<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+					<aixm:minimumObstacleClearanceAltitude xsi:nil="true"/>
+					<aixm:pathType xsi:nil="true"/>
+					<aixm:trueTrack>43.0883</aixm:trueTrack>
+					<aixm:magneticTrack>43.6051</aixm:magneticTrack>
+					<aixm:reverseTrueTrack>223.3587</aixm:reverseTrueTrack>
+					<aixm:reverseMagneticTrack>223.7753</aixm:reverseMagneticTrack>
+					<aixm:length uom="NM">17.2052</aixm:length>
+					<aixm:widthLeft xsi:nil="true"/>
+					<aixm:widthRight xsi:nil="true"/>
+					<aixm:turnDirection xsi:nil="true"/>
+					<aixm:signalGap xsi:nil="true"/>
+					<aixm:minimumEnrouteAltitude xsi:nil="true"/>
+					<aixm:minimumCrossingAtEnd xsi:nil="true"/>
+					<aixm:minimumCrossingAtEndReference xsi:nil="true"/>
+					<aixm:maximumCrossingAtEnd xsi:nil="true"/>
+					<aixm:maximumCrossingAtEndReference xsi:nil="true"/>
+					<aixm:navigationType>RNAV</aixm:navigationType>
+					<aixm:requiredNavigationPerformance>5</aixm:requiredNavigationPerformance>
+					<aixm:designatorSuffix xsi:nil="true"/>
+					<aixm:start>
+						<aixm:EnRouteSegmentPoint gml:id="id321765">
+							<aixm:reportingATC>ON_REQUEST</aixm:reportingATC>
+							<aixm:flyOver xsi:nil="true"/>
+							<aixm:waypoint xsi:nil="true"/>
+							<aixm:radarGuidance xsi:nil="true"/>
+							<aixm:pointChoice_fixDesignatedPoint xlink:type="simple"
+									xlink:href="urn:uuid:ddb7de9c-5568-48e8-b459-c05b3e9b6547"/>
+							<aixm:extendedServiceVolume/>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:roleFreeFlight xsi:nil="true"/>
+							<aixm:roleRVSM xsi:nil="true"/>
+							<aixm:turnRadius xsi:nil="true"/>
+							<aixm:roleMilitaryTraining xsi:nil="true"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:start>
+					<aixm:routeFormed xlink:type="simple"
+							xlink:href="urn:uuid:59910ac6-0efc-4baf-a765-753343fa5282"/>
+					<aixm:curveExtent>
+						<aixm:Curve gml:id="id321752">
+							<gml:segments>
+								<gml:GeodesicString interpolation="geodesic">
+									<gml:pointProperty xlink:type="simple">
+										<aixm:Point gml:id="id321753"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">54.0161111 -2.2896556</gml:pos>
+										</aixm:Point>
+									</gml:pointProperty>
+									<gml:pointProperty xlink:type="simple">
+										<aixm:Point gml:id="id321754"
+												srsName="urn:ogc:def:crs:EPSG::4326">
+											<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">54.2247139 -1.9559167</gml:pos>
+										</aixm:Point>
+									</gml:pointProperty>
+								</gml:GeodesicString>
+							</gml:segments>
+						</aixm:Curve>
+					</aixm:curveExtent>
+					<aixm:end>
+						<aixm:EnRouteSegmentPoint xsi:type="aixm:EnRouteSegmentPointType"
+								gml:id="id321766">
+							<aixm:reportingATC>ON_REQUEST</aixm:reportingATC>
+							<aixm:flyOver xsi:nil="true"/>
+							<aixm:waypoint xsi:nil="true"/>
+							<aixm:radarGuidance xsi:nil="true"/>
+							<aixm:pointChoice_fixDesignatedPoint xlink:type="simple"
+									xlink:href="urn:uuid:36e3f702-529b-4d3f-876a-7e90c6be58f7"/>
+							<aixm:extendedServiceVolume/>
+							<aixm:annotation xsi:nil="true"/>
+							<aixm:roleFreeFlight xsi:nil="true"/>
+							<aixm:roleRVSM xsi:nil="true"/>
+							<aixm:turnRadius xsi:nil="true"/>
+							<aixm:roleMilitaryTraining xsi:nil="true"/>
+						</aixm:EnRouteSegmentPoint>
+					</aixm:end>
+					<aixm:availability>
+						<aixm:RouteAvailability gml:id="id342592">
+							<aixm:annotation>
+								<aixm:Note gml:id="id342593">
+									<aixm:purpose>OTHER:AIXM45_MAPPING</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="id342594">
+											<aixm:note lang="eng">noSeq:10</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
+							<aixm:direction>BACKWARD</aixm:direction>
+							<aixm:status>OPEN</aixm:status>
+							<aixm:levels>
+								<aixm:AirspaceLayer gml:id="id345375">
+									<aixm:upperLimit uom="FL">230</aixm:upperLimit>
+									<aixm:upperLimitReference>STD</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FL">190</aixm:lowerLimit>
+									<aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+									<aixm:discreteLevelSeries xlink:type="simple"
+											xlink:href="urn:uuid:11adc245-1bd2-4949-aa08-3ed996f688c7"/>
+									<aixm:annotation xsi:nil="true"/>
+								</aixm:AirspaceLayer>
+							</aixm:levels>
+						</aixm:RouteAvailability>
+					</aixm:availability>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321755">
+							<aixm:purpose>OTHER:AIXM45_MAPPING</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321756">
+									<aixm:note lang="eng">Lower limit override: 
+Units of measurement [lower limit override]: 
+Reference for [lower limit override]: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321757">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321758">
+									<aixm:note lang="eng">FL 245/FL 195 Class C,
+FL 195/FL 125 Class A.
+
+Scottish ACC
+Freq: 118.780 (Above FL 195);
+Freq: 135.715 (FL 195 and below).</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321759">
+							<aixm:propertyName>start</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321760">
+									<aixm:note lang="eng">Eastbound route only btn GASKO and RIBEL.
+Intersection with N601.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321761">
+							<aixm:propertyName>minimumEnrouteAltitude</aixm:propertyName>
+							<aixm:purpose>DESCRIPTION</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321762">
+									<aixm:note lang="eng">Reference for minimum limit: </aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="id321763">
+							<aixm:propertyName>end</aixm:propertyName>
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="id321764">
+									<aixm:note lang="eng">Extremity of P16.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:RouteSegmentTimeSlice>
+			</aixm:timeSlice>
+		</aixm:RouteSegment>
+	</message:hasMember>
+</message:AIXMBasicMessage>

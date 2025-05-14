@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>P8_TEST_Analytics</projectName>
+    <aixmBaseline>1902_UK_BL_with_letterboxes.xml</aixmBaseline>
+    <description>Test inporting P8 traffic sample</description>
+    <targetDate>Fri Sep 4 2020</targetDate>
+</adtProjectConfig>

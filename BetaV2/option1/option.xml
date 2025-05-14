@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>BetaV2</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>BetaV2</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>08/02/2024 10:53:25</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>1</activeFlightSampleId>
+    <creator>804336</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

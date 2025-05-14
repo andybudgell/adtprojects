@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>UAETest</projectName>
+    <aixmBaseline>UAE_20160302_AIRAC01_16.xml</aixmBaseline>
+    <description>UAE1</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>23/01/2023 14:45:56</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>-1</activeFlightSampleId>
+    <closed>false</closed>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

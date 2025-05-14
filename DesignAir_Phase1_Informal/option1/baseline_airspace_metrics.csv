@@ -1,0 +1,4 @@
+Airspace,Key,Function,TimeOfDay,DESCEND,CLIMB,ASSUME_EXT,ASSUME_INT,HANDOVER_EXT,HANDOVER_INT,FP_MONITORING
+Total,Baseline,0,0,0,0,0,0,0
+Total,Current,0,0,0,0,0,0,0
+Total,Delta,0,0,0,0,0,0,0

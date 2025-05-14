@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionLogs>
+    <action>
+        <userName>802728</userName>
+        <creationDate>25/03/2024 16:22:51</creationDate>
+        <description>Average speeds 330-350kts, 10.5 seconds per NM, i.e. approx 5.5-6NM per minute spacing required.</description>
+        <featureUUID>d533c2a3-fc76-4c1b-8d0e-2125f7b74fab</featureUUID>
+        <featureType>STAR</featureType>
+        <featureName>XAMAN2N</featureName>
+    </action>
+</actionLogs>

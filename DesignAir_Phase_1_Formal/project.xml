@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>DesignAir_Phase_1_Formal</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>Formal Testing </description>
+    <targetDate>Tue Mar 19 2024</targetDate>
+</adtProjectConfig>

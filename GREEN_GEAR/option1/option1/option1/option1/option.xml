@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>GREEN_GEAR</projectName>
+    <aixmBaseline>UK_AIRAC_06_2024.xml</aixmBaseline>
+    <description>Green GEAR Design 5% gradients</description>
+    <optionName>Option 1.1.1.1</optionName>
+    <lastSavedDateTime>27/01/2025 09:35:59</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>7</activeFlightSampleId>
+    <creator>802728</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

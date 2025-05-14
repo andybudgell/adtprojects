@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>Maddie_Metrics</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>LOGAN SAM</description>
+    <optionName>Option 2</optionName>
+    <lastSavedDateTime>19/04/2024 09:49:00</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>17</activeFlightSampleId>
+    <creator>805846</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

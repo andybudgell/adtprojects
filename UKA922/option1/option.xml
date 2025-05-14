@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>UKA922</projectName>
+    <aixmBaseline>UK_AIRAC_09_2022.xml</aixmBaseline>
+    <description>UKA922</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime></lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId></activeFlightSampleId>
+    <closed>false</closed>
+    <locked>false</locked>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

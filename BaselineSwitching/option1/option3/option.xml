@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>BaselineSwitching</projectName>
+    <aixmBaseline>UK_AIRAC_02_2021.xml</aixmBaseline>
+    <description>Baseline FRAD3</description>
+    <optionName>Option 1.3</optionName>
+    <lastSavedDateTime>09/05/2024 14:03:37</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>-1</activeFlightSampleId>
+    <creator>805846</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

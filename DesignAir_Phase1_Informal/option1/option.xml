@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>DesignAir_Phase1_Informal</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>27/02</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>29/02/2024 15:20:25</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>8</activeFlightSampleId>
+    <creator>805846</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>EGBB_EGNX</projectName>
+    <aixmBaseline>AB_OneFix.xml</aixmBaseline>
+    <description>Investigation of FL270 - FL300 level off for S19</description>
+    <targetDate>Tue Mar 25 2025</targetDate>
+</adtProjectConfig>

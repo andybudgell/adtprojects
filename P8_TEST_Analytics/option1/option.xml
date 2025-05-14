@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>P8_TEST_Analytics</projectName>
+    <aixmBaseline>1902_UK_BL_with_letterboxes.xml</aixmBaseline>
+    <description>1902 Baseline with P8 Traffic</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime></lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <closed>false</closed>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

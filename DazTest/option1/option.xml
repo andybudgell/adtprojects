@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>DazTest</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023.xml</aixmBaseline>
+    <description>Demo</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>19/02/2024 09:41:08</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>3</activeFlightSampleId>
+    <creator>805846</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

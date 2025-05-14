@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>IPATest1</projectName>
+    <aixmBaseline>1902Baseline_11-03-2019.xml</aixmBaseline>
+    <description>RNP AR routes Vs extant SIDs and STARs</description>
+    <targetDate>Tue Sep 17 2019</targetDate>
+</adtProjectConfig>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>MBRDemo</projectName>
+    <aixmBaseline>UK_AIRAC_02_2021_WAM.xml</aixmBaseline>
+    <description>Option 2</description>
+    <optionName>Option 1.1</optionName>
+    <lastSavedDateTime>24/09/2021 09:25:24</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <closed>false</closed>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

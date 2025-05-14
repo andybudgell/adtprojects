@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>AABsecuritytest</projectName>
+    <aixmBaseline>UK_AIRAC_03_2023.xml</aixmBaseline>
+    <description>test</description>
+    <targetDate>Fri Mar 31 2023</targetDate>
+</adtProjectConfig>

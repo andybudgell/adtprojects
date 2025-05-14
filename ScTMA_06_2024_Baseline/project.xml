@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectConfig>
+    <projectName>ScTMA_06_2024_Baseline</projectName>
+    <aixmBaseline>UK_AIRAC_11_2023_ScTMA.xml</aixmBaseline>
+    <description>Switching ScTMA 9 to 06/2024 AIRAC</description>
+    <targetDate>Wed May 1 2024</targetDate>
+</adtProjectConfig>

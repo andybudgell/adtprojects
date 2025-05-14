@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>UK_WAM_2021</projectName>
+    <aixmBaseline>UK_AIRAC_02_2021_WAM.xml</aixmBaseline>
+    <description>A</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime></lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId></activeFlightSampleId>
+    <closed>false</closed>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>

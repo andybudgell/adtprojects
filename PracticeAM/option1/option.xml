@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adtProjectOptionConfig>
+    <projectName>PracticeAM</projectName>
+    <aixmBaseline>xUK_AIRAC_02_2024.xml</aixmBaseline>
+    <description>Learning DA</description>
+    <optionName>Option 1</optionName>
+    <lastSavedDateTime>22/05/2024 14:52:23</lastSavedDateTime>
+    <highlighted>false</highlighted>
+    <activeFlightSampleId>-1</activeFlightSampleId>
+    <creator>805799</creator>
+    <closed>false</closed>
+    <locked>false</locked>
+    <userPermissions>false</userPermissions>
+    <workloadSectors></workloadSectors>
+</adtProjectOptionConfig>
