@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:AIXMBasicMessage xmlns:message="http://www.aixm.aero/schema/5.1/message"
+		xmlns:gml="http://www.opengis.net/gml/3.2"
+		xmlns:aixm="http://www.aixm.aero/schema/5.1"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:gmd="http://www.isotc211.org/2005/gmd"
+		xmlns:gco="http://www.isotc211.org/2005/gco"
+		xmlns:gts="http://www.isotc211.org/2005/gts"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		gml:id="id200006">
+	<message:hasMember>
+		<aixm:Navaid gml:id="id200001">
+			<gml:identifier codeSpace="urn:uuid:">20522fa4-3712-4f4e-ae42-ca113d77c463</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:NavaidTimeSlice gml:id="id200002">
+					<gml:validTime>
+						<gml:TimeInstant xsi:type="gml:TimeInstantType"
+								gml:id="id200003">
+							<gml:timePosition>2018-12-11T17:41:56</gml:timePosition>
+						</gml:TimeInstant>
+					</gml:validTime>
+					<aixm:interpretation>PERMDELTA</aixm:interpretation>
+					<aixm:featureLifetime>
+						<gml:TimePeriod xsi:type="gml:TimePeriodType"
+								gml:id="id200004">
+							<gml:beginPosition>2018-12-11T17:41:56</gml:beginPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>DME</aixm:type>
+					<aixm:designator>ANDYD</aixm:designator>
+					<aixm:name>ANDY</aixm:name>
+					<aixm:location>
+						<aixm:ElevatedPoint gml:id="id200005"
+								srsName="urn:ogc:def:crs:EPSG::4326">
+							<gml:pos>51.9196 -1.78723</gml:pos>
+						</aixm:ElevatedPoint>
+					</aixm:location>
+				</aixm:NavaidTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Navaid>
+	</message:hasMember>
+</message:AIXMBasicMessage>
